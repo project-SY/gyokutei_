@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+◆　all
+------------------------------------ */
+html, body {
+  color: #333;
+  background-color: #fff;
+  font-family: "ヒラギノ角ゴ Pro W3","HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 13px;
+  line-height: 1.7em;
+  width: 100%;
+  height: auto;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+img {
+	display: block;
+}
+
+.right {
+  float: right;
+}
+
+
+#wrapper {
+  width: 100%;
+  background-image: url("../images/bg-sidebar.png");
+  background-repeat: repeat;
+}
+
+.active {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  position:device-fixed
+}
+
+.pc {
+  display: none;
+}
+
+
+/* ------------------------------------
+◆　nav
+------------------------------------ */
+#nav {
+  height: 56px;
+  background-image: url("../images/bg-sidebar.png");
+  background-repeat: repeat;
+  padding: 14px 29px;
+  position: relative;
+}
+
+#nav .logo {
+  width: 73px;
+  float: left;
+}
+
+#nav .open-btn {
+  width: 32px;
+  height: 30px;
+  float: right;
+  display: block;
+  margin: 12px 0px 0px;
+}
+
+.btn img {
+  width: 32px;
+  height: 30px;
+  display: block;
+}
+
+
+
+
+#sidr-right {
+  display: none;
+  width: 186px;
+  border-left: solid 4px rgba(111, 127, 110, 0.4);
+  position: absolute;
+  top: 0;
+  background-image: url("../images/bg-sidebar.png");
+  background-repeat: repeat;
+  z-index: 5;
+}
+
+#sidr-right .inner {
+  height: 100%;
+  padding: 25px 20px;
+  overflow: hidden;
+}
+
+#sidr-right .close-btn-area {
+  padding: 0px 0px 25px;
+}
+
+#sidr-right .close-btn-area .close-btn {
+  display: block;
+  width: 32px;
+  height: 30px;
+  float: right;
+}
+
+#sidr-right .close-btn-area .close-btn img {
+  width: 32px;
+  height: 30px;
+  display: block;
+}
+
+#sidr-right ul li {
+  border-top: solid 1px #cbcac6;
+}
+
+#sidr-right ul li:last-child {
+  border-bottom: solid 1px #cbcac6;
+}
+
+#sidr-right ul li a {
+  display: block;
+  padding: 20px 0px;
+  background-image: url("../images/icon-menu-arrow-sp.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 6px 11px;
+}
+
+/* ------------------------------------
+◆　contents/same
+------------------------------------ */
+.kv-same {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-width: 330px;
+  height: 125px;
+  margin-bottom: 60px;
+}
+
+.caption-p {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0px 30px;
+  margin-bottom: 50px;
+}
+
+.media {
+  padding: 0px 30px;
+  margin-bottom: 52px;
+}
+
+.media img {
+  width: 100%;
+}
+
+.media .media-img {
+  margin-bottom: 23px;
+}
+
+.media .media-text h5 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 19px;
+}
+
+.media .media-text img {
+  margin-bottom: 20px;
+}
+
+
+/* ------------------------------------
+◆　index
+------------------------------------ */
+#bxslider img {
+  width: 100%;
+}
+
+.index .index-comment .sp {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.index .index-comment-txt {
+  width: 142px;
+  margin: 0 auto 40px;
+}
+
+.index p {
+  color:  #4a4a4a;
+  font-size: 14px;
+  padding: 0px 20px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.index .index-links ul li {
+  margin-bottom: 10px;
+}
+
+.index .index-links ul li:last-child {
+  margin-bottom: 60px;
+}
+
+
+.index .index-links ul li a {
+  display: block;
+}
+
+.index .index-links ul li a img {
+  width: 100%;
+}
+
+
+/* ------------------------------------
+◆　bath
+------------------------------------ */
+.kv-bath {background-image: url("../images/pic-bath-kv-sp.png");}
+
+
+/* ------------------------------------
+◆　room
+------------------------------------ */
+.kv-room {background-image: url("../images/pic-room-kv-sp.png");}
+
+
+
+/* ------------------------------------
+◆　footer
+------------------------------------ */
+.pagetop {
+  width: 199px;
+  height: 42px;
+  margin: 0 auto 37px;
+  display: block;
+}
+
+.pagetop img {
+  width: 199px;
+  height: 42px;
+}
+
+
+#footer {
+  padding: 23px 0px;
+}
+
+#footer .footer-bg-high {
+  width: 100%;
+  height: 52px;
+}
+
+#footer p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
