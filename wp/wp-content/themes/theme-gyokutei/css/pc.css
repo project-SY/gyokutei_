@@ -80,6 +80,15 @@ img {
   width: 127px;
 }
 
+#nav li a img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav li a.active {
+
+}
+
 .open-btn,
 .close-btn {
   display: none;
