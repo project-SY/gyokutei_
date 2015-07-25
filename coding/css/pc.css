@@ -51,7 +51,6 @@ img {
   min-width: 1080px;
   background-image: url("../images/bg-index-contents.png");
   background-repeat: repeat;
-  overflow: hidden;
 }
 
 .content-width {

@@ -1,4 +1,9 @@
 $(function(){
+
+	$(document).ready(function(){
+ 	 $('.bxslider').bxSlider();
+	});
+
 	var window_w = $(window).width();
 	var window_h = $(window).height();
 

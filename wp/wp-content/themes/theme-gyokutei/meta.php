@@ -10,10 +10,11 @@
 <meta property="og:description" content="###" />
 <meta property="og:image" content="###" />
 <link rel="shortcut icon" href="favicon.ico" />
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/style.css">
-<script src="./js/jquery-1.11.3.min.js"></script>
-<script src="./js/jquery.sidr.min.js"></script>
-<script src="./js/jquery.bxslider.min.js"></script>
-<script src="./js/common.js"></script>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.bxslider.css">
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.3.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.sidr.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 </head>

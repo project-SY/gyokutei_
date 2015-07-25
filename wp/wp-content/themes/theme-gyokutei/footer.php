@@ -1,4 +1,4 @@
-<a href="#" class="pagetop sp"><img src="./images/btn-footer-pagetop-sp.png" alt="ページトップへ戻る"></a>
+<a href="#" class="pagetop sp"><img src="<?php echo get_template_directory_uri(); ?>/images/btn-footer-pagetop-sp.png" alt="ページトップへ戻る"></a>
     <footer id="footer">
       <div class="footer-bg-high">
         <p>
