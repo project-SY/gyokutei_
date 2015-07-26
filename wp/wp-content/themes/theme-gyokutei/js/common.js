@@ -1,13 +1,26 @@
 $(function(){
+
+	$(document).ready(function(){
+ 	 $('.bxslider').bxSlider();
+	});
+
 	var window_w = $(window).width();
 	var window_h = $(window).height();
 
 	if (window_w > 569) {
 		//View on PC function
+		var url = $(location).attr('href');
+		$('#nav li a').each(function(){
+      var $href = $(this).attr('href');
+      if(url.match($href)) {
+      $(this).addClass('active');
+      } else {
+      $(this).removeClass('active');
+      }
+    });
+	}
 
-
-
-	} else if(window_w < 568) {
+	else if(window_w < 568) {
 		//View on SP function
 		//sidr-right
 		$(document).ready(function() {

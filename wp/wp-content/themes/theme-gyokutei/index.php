@@ -1,12 +1,16 @@
 <?php include('head.php'); ?>
   <?php include('nav.php'); ?>
   <div id="contents" class="index">
-    <ul id="bxslider">
-      <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+    <ul id="bxslider" class="bxslider">
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-bxslider-01.png" alt=""></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-bxslider-01.png" alt=""></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-bxslider-01.png" alt=""></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-bxslider-01.png" alt=""></li>
+
     </ul>
     <div class="index-comment">
-      <img class="sp" src="./images/txt-index-subtitle-sp.png" alt="">
-      <img class="index-comment-txt" src="./images/txt-index-comment.png" alt="女将からのごあいさつ">
+      <img class="sp" src="<?php echo get_template_directory_uri(); ?>/images/txt-index-subtitle-sp.png" alt="">
+      <img class="index-comment-txt" src="<?php echo get_template_directory_uri(); ?>/images/txt-index-comment.png" alt="女将からのごあいさつ">
       <p>
         風薫る清々しい季節、私の一番好きな季節になりました。 新緑に包まれ、つつじや未央柳などの和花が彩りを添えます。
         庭内の緑の木々の美しさに感動しています。<br />
@@ -16,21 +20,21 @@
     </div>
     <div class="index-links sp">
       <ul>
-        <li><a href=""><img src="./images/link-index-bath-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-room-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-food-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-reservation-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-access-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-blog-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-bath-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-room-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-food-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-reservation-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-access-sp.png" alt=""></a></li>
+        <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/link-index-blog-sp.png" alt=""></a></li>
       </ul>
     </div>
     <div class="index-carousel-area">
       <div class="index-carousel clearfix pc">
         <a class="index-carousel-btn index-carousel-btn-left" href="#"></a>
         <ul class="index-carousel-inner clearfix">
-          <li><img src="./images/pic-index-carousel-01.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-02.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-03.png" alt=""></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-index-carousel-01.png" alt=""></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-index-carousel-02.png" alt=""></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/images/pic-index-carousel-03.png" alt=""></li>
         </ul>
         <a class="index-carousel-btn index-carousel-btn-right" href="#"></a>
       </div>

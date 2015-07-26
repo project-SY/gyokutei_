@@ -80,6 +80,15 @@ img {
   width: 127px;
 }
 
+#nav li a img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav li a.active {
+
+}
+
 .open-btn,
 .close-btn {
   display: none;
@@ -143,12 +152,12 @@ img {
 /* ------------------------------------
 ◆　contents /index
 ------------------------------------ */
-#bxslider {
+.bxslider {
   width: 100%;
   margin-bottom: 69px;
 }
 
-#bxslider img {
+.bxslider img {
   width: 100%;
   height: 420px;
 }

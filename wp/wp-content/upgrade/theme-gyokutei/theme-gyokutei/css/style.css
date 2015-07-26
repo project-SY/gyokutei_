@@ -1,0 +1,4 @@
+@charset "UTF-8";
+
+@import url("./pc.css") screen and (min-width:569px);
+@import url("./sp.css") screen and (max-width:568px);
