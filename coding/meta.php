@@ -12,9 +12,11 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="stylesheet" href="./css/reset.css">
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/slick.css">
 <link rel="stylesheet" href="./css/jquery.bxslider.css">
 <script src="./js/jquery-1.11.3.min.js"></script>
 <script src="./js/jquery.sidr.min.js"></script>
+<script src="./js/slick.js"></script>
 <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
 <script src="http://www.google.com/jsapi/"></script>
 <script type="text/javascript" src="./js/map.js"></script>
