@@ -14,6 +14,7 @@
           <li><a href="reservation.php"><img src="./images/txt-sidebar-reservation.png" alt="予約"></a></li>
           <li><a href="access.php"><img src="./images/txt-sidebar-access.png" alt="交通"></a></li>
           <li><a href=""><img src="./images/txt-sidebar-blog.png" alt="ブログ"></a></li>
+          <li><a href="info.php"><img src="./images/txt-sidebar-info.png" alt="お知らせ"></a></li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@
 html, body {
   color: #333;
   background-color: #fff;
-  font-family: "ヒラギノ角ゴ Pro W3","HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
+  font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
   font-size: 13px;
   line-height: 1.7em;
   width: 100%;
@@ -54,10 +54,10 @@ img {
 }
 
 .active {
+  width: 100%;
   height: 100%;
   overflow: hidden;
   position: fixed;
-  position:device-fixed
 }
 
 .pc {
@@ -79,6 +79,10 @@ img {
 #nav .logo {
   width: 73px;
   float: left;
+}
+
+#nav .logo img {
+  width: 73px;
 }
 
 #nav .open-btn {
@@ -156,7 +160,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  min-width: 330px;
+  min-width: 320px;
   height: 125px;
   margin-bottom: 60px;
 }
@@ -195,9 +199,15 @@ img {
 /* ------------------------------------
 ◆　index
 ------------------------------------ */
-#bxslider img {
+#bxslider li img {
   width: 100%;
 }
+
+#bxslider li:not(:first-child) {
+  display: none;
+}
+
+
 
 .index .index-comment .sp {
   width: 100%;
@@ -247,6 +257,130 @@ img {
 .kv-room {background-image: url("../images/pic-room-kv-sp.png");}
 
 
+/* ------------------------------------
+◆　info
+------------------------------------ */
+.kv-info {background-image: url("../images/pic-info-kv-sp.png");}
+.info .info-articles {
+  margin: 0px 30px 60px;
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+
+.info .info-articles-article {
+  padding: 25px 10px;
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.info .info-articles-article h4 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 45px;
+}
+.info .info-articles-article time {
+  color:  #808080;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.info .info-articles-article p {display: none;}
+
+.info .article-1 {
+  background-color:  rgba(0, 0, 0, 0.03);
+}
+
+.info .info-articles-pager {
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding: 23px 30px;
+}
+
+.info .info-articles-pager ul li {
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.info .info-articles-pager ul li:last-child {
+  float: right;
+}
+
+
+.info .info-articles-pager ul li a {
+  font-size: 15px;
+  line-height: 21px;
+  display: inline-block;
+}
+
+.info .info-articles-pager ul li a img {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+  height: 12px;
+}
+
+.info .info-back-left {
+  left: -12px;
+}
+
+.info .info-next-right {
+  right: -12px;
+}
+/* ------------------------------------
+◆　access
+------------------------------------ */
+.kv-access {background-image: url("../images/pic-access-kv-sp.png");}
+.access .access-route {
+  background-image: url("../images/pic-access-route-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 85%;
+  min-height: 343px;
+  margin: 0 auto 63px;
+}
+
+.access .access-subhead {
+  height: 15px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.access .access-subhead-route {
+  background-image: url("../images/txt-access-subhead-01-sp.png");
+  width: 189px;
+  margin: 0 auto 15px;
+}
+
+.access .access-subhead-info {
+  background-image: url("../images/txt-access-subhead-02-sp.png");
+  width: 142px;
+  margin: 0 auto 30px;
+}
+
+#map {
+  width: 85%;
+  min-height: 310px;
+  margin: 0 auto 61px;
+}
+
+.access .access-about {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
 
 /* ------------------------------------
 ◆　footer
@@ -265,18 +399,15 @@ img {
 
 
 #footer {
-  padding: 23px 0px;
-}
-
-#footer .footer-bg-high {
-  width: 100%;
-  height: 52px;
+  background-image: url("../images/pic-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 134px;
 }
 
 #footer p {
-  font-size: 12px;
-  line-height: 20px;
-  text-align: center;
+  display: none;
 }
 
 

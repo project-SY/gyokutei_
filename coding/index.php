@@ -1,9 +1,14 @@
 <?php include('head.php'); ?>
   <?php include('nav.php'); ?>
   <div id="contents" class="index">
-    <ul id="bxslider">
-      <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-    </ul>
+    <div id="bxslider-area">
+      <ul id="bxslider">
+        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+      </ul>
+    </div>
     <div class="index-comment">
       <img class="sp" src="./images/txt-index-subtitle-sp.png" alt="">
       <img class="index-comment-txt" src="./images/txt-index-comment.png" alt="女将からのごあいさつ">

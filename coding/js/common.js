@@ -4,8 +4,10 @@ $(function(){
 
 	if (window_w > 569) {
 		//View on PC function
-
-
+		$(document).ready(function(){
+	 	 $('#bxslider').bxSlider();
+		});
+		//未完処理
 
 	} else if(window_w < 568) {
 		//View on SP function

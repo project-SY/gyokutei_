@@ -20,6 +20,9 @@ a {
 
 a:hover {
   text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 li {
@@ -36,12 +39,6 @@ li {
   zoom: 1;
 }
 
-.hover:hover{
-  cursor: pointer;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
-}
-
 img {
   display: block;
 }
@@ -51,6 +48,7 @@ img {
   min-width: 1080px;
   background-image: url("../images/bg-index-contents.png");
   background-repeat: repeat;
+  position: relative;
 }
 
 .content-width {
@@ -70,14 +68,17 @@ img {
   background-image: url("../images/bg-sidebar.png");
   background-repeat: repeat;
   border-right: solid 2px #849883;
-  padding: 66px 0px;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 #nav .logo {
   margin: 0 auto;
   display: block;
   width: 127px;
+  padding-top: 65px;
 }
 
 .open-btn,
@@ -87,6 +88,13 @@ img {
 
 #sidr-right {
   padding: 139px 16px 0px 0px;
+}
+
+#sidr-right .inner {
+  background-image: url("../images/icon-nav.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 180px;
 }
 
 #sidr-right ul li {
@@ -100,7 +108,6 @@ img {
 }
 
 #sidr-right ul li a {
-  font-family: DFKyoKaSho;
   color:  #2d2d2d;
   font-size: 18px;
   text-align: left;
@@ -122,8 +129,8 @@ img {
 }
 
 #contents .icon-same {
-  width: 32px;
-  height: 43px;
+  width: 48px;
+  height: 22px;
   margin: 0px auto 28px;
   display: block;
 }
@@ -150,7 +157,6 @@ img {
 
 #bxslider img {
   width: 100%;
-  height: 420px;
 }
 
 .index .index-comment .index-comment-txt {
@@ -219,7 +225,6 @@ img {
   text-align: center;
   width: 920px;
   margin:0px auto 120px;
-  font-family: HiraMinPro;
   color:  #2d2d2d;
   font-size: 14px;
   line-height: 23px;
@@ -227,6 +232,8 @@ img {
 /* ------------------------------------
 ◆　bath
 ------------------------------------ */
+.kv-bath {background-image: url("../images/pic-bath-kv.png");}
+
 .bath .caption-p {
   margin-bottom: 71px;
 }
@@ -276,11 +283,6 @@ img {
   height: 300px;
   margin-bottom: 60px;
 }
-
-/* ------------------------------------
-◆　bath
------------------------------------- */
-.kv-bath {background-image: url("../images/pic-bath-kv.png");}
 /* ------------------------------------
 ◆　room
 ------------------------------------ */
@@ -301,11 +303,107 @@ img {
 ◆　access
 ------------------------------------ */
 .kv-access {background-image: url("../images/pic-access-kv.png");}
+.access .caption-p {
+  margin-bottom: 85px;
+}
 .access .access-route {
-
+  background-image: url("../images/pic-access-route.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 684px;
+  height: 418px;
+  margin: 0 auto 117px;
 }
 
+.access .access-subhead {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin: 0 auto 34px;
+  width: 685px;
+  height: 20px;
+}
 
+.access .access-subhead-route {background-image: url("../images/txt-access-subhead-01.png");}
+.access .access-subhead-info {background-image: url("../images/txt-access-subhead-02.png");}
+
+#map {
+  width: 685px;
+  height: 420px;
+  margin: 0 auto 82px;
+}
+
+.access .access-about {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+/* ------------------------------------
+◆　info
+------------------------------------ */
+.kv-info {background-image: url("../images/pic-info-kv.png");}
+.info .caption-p {
+  margin-bottom: 70px;
+}
+
+.info .info-articles {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.info .info-articles-article {
+  padding-top: 29px;
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 80px;
+}
+
+.info .info-articles-article h4 {
+  margin-bottom: 10px;
+}
+
+.info .info-articles-article time {
+  margin-bottom: 28px;
+  display: inline-block;
+}
+
+.info .info-articles-pager {
+  background-image: url("../images/border-info-dotted.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 27px;
+  margin-bottom: 119px;
+}
+
+.info .info-articles-pager ul {
+  margin: 0 auto;
+  width: 224px;
+}
+
+.info .info-articles-pager ul li {
+  width: 112px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.info .info-articles-pager ul li a {
+  width: 112px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.info .info-articles-pager ul li a img {
+  display: inline-block;
+  position: absolute;
+}
+
+.info .info-back-left {padding-right: 14px; left: 0;}
+.info .info-next-right {padding-left: 14px; right: 0;}
 
 
 
@@ -324,9 +422,10 @@ img {
 
 #footer p {
   text-align: center;
-  font-family: HiraMinPro;
   color:  #2d2d2d;
   font-size: 14px;/
   line-height: 24px;
   margin-bottom: 10px;
+  line-height: 1.5em;
 }
+
