@@ -467,6 +467,10 @@ img {
   display: block;
 }
 
+.reservation .reservation-btn-area ul li a img {
+  width: 200px;
+  height: 42px;
+}
 
 
 /* ------------------------------------

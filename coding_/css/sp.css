@@ -269,6 +269,10 @@ img {
   width: 100%;
 }
 
+.index .pagetop {
+  margin-top: 150px;
+}
+
 
 /* ------------------------------------
 ◆　bath
@@ -295,8 +299,11 @@ img {
 ◆　reservation
 ------------------------------------ */
 .kv-reservation {background-image: url("../images/pic-reservation-kv-sp.png");}
+.reservation .caption-p {
+  margin-bottom: 60px;
+}
 .reservation .reservation-inner {
-  padding: 25px 30px;
+  padding: 50px 40px;
 }
 
 .reservation .reservation-inner-color {
@@ -311,6 +318,7 @@ img {
   font-size: 13px;
   line-height: 23px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .reservation .reservation-price {
@@ -366,9 +374,14 @@ img {
 
 .reservation .reservation-btn-area ul li a {
   display: block;
-  width: 199px;
+  width: 200px;
   height: 42px;
   margin: 0 auto;
+}
+
+.reservation .reservation-btn-area ul li a img {
+  width: 200px;
+  height: 42px;
 }
 
 .reservation .reservation-btn-area ul li {
@@ -376,7 +389,7 @@ img {
 }
 
 .reservation .reservation-btn-area ul li:last-child {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 .reservation .pagetop {
@@ -472,7 +485,7 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  width: 85%;
+  width: 90%;
   min-height: 343px;
   margin: 0 auto 63px;
 }
@@ -490,7 +503,7 @@ img {
 }
 
 #map {
-  width: 85%;
+  width: 90%;
   min-height: 310px;
   margin: 0 auto 61px;
 }
@@ -510,7 +523,7 @@ img {
 .pagetop {
   width: 199px;
   height: 42px;
-  margin: 0 auto 37px;
+  margin: 0 auto 60px;
   display: block;
 }
 
