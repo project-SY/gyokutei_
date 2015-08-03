@@ -35,9 +35,9 @@
       <div class="index-carousel clearfix pc">
         <a class="index-carousel-btn index-carousel-btn-left" href="#"></a>
         <ul class="index-carousel-inner clearfix">
-          <li><img src="./images/pic-index-carousel-01.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-02.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-03.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-01-2.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-02-2.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-03-2.png" alt=""></li>
         </ul>
         <a class="index-carousel-btn index-carousel-btn-right" href="#"></a>
       </div>
