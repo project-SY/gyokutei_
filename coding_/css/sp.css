@@ -174,12 +174,8 @@ img {
 /* ------------------------------------
 ◆　contents/same
 ------------------------------------ */
-.kv-same {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  min-width: 320px;
-  height: 125px;
+.kv-same img {
+  width: 100%;
   margin-bottom: 60px;
 }
 

@@ -132,19 +132,11 @@ img {
 .nav-info {background-image: url("../images/txt-sidebar-info.png"); width: 70px; height: 15px;}
 
 
-
-
 /* ------------------------------------
 ◆　contents
 ------------------------------------ */
 #contents {
   margin-left: 180px;
-}
-
-#contents .kv {
-  width: 100%;
-  min-width: 1020px;
-  margin-bottom: 60px;
 }
 
 #contents .icon-same {
@@ -297,12 +289,8 @@ img {
 
 
 
-.kv-same {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  min-width: 1020px;
-  height: 320px;
+.kv-same img {
+  width: 100%;
   margin-bottom: 60px;
 }
 
