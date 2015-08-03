@@ -31,15 +31,16 @@
         <li><a href="info.php"><img src="./images/link-index-info-sp.png" alt=""></a></li>
       </ul>
     </div>
-    <div class="index-carousel-area">
-      <div class="index-carousel clearfix pc">
-        <a class="index-carousel-btn index-carousel-btn-left" href="#"></a>
-        <ul class="index-carousel-inner clearfix">
-          <li><img src="./images/pic-index-carousel-01-2.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-02-2.png" alt=""></li>
-          <li><img src="./images/pic-index-carousel-03-2.png" alt=""></li>
-        </ul>
-        <a class="index-carousel-btn index-carousel-btn-right" href="#"></a>
+    <div class="index-carousel-area clearfix pc">
+      <div class="slick_container">
+        <div class="slick">
+          <li><img src="./images/pic-index-carousel-01.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-02.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-03.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-01.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-02.png" alt=""></li>
+          <li><img src="./images/pic-index-carousel-03.png" alt=""></li>
+        </div>
       </div>
       <p>
         玉庭（ぎょくてい）は箱根湯本の高台にある旅館です。箱根湯本の町を流れる須雲川が早川の合流するところ、須雲川の流れによって出来た谷が箱根旧街道に向かって傾斜してゆく途中にあります。旅館からは箱根湯本の町とその向こうの塔ノ峰を始めとする箱根外輪山や、芦ノ湖に通じる箱根の古くからの街道、鎌倉古道の通る湯坂道のある湯坂山などが一望出来ます。客室は和室が8室。中庭を中心として離れとなっております。また全ての客室のお風呂は温泉となっております。温泉は自家用源泉のナトリウム-塩化物・硫酸塩温泉で、美肌の湯として知られております。
