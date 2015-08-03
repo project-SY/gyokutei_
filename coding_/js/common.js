@@ -10,6 +10,7 @@ $(function(){
 		//View on PC function
 		$(document).ready(function(){
 	 	 $('#bxslider').bxSlider();
+	 	 $('.slick').slick();
 		});
 		//未完処理
 		//var url = $(location).attr('href');
