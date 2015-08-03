@@ -2,24 +2,38 @@ $(function(){
 	var window_w = $(window).width();
 	var window_h = $(window).height();
 
+	var $check = $(location).attr('href');
+  console.log($check);
+
+
 	if (window_w > 569) {
 		//View on PC function
 		$(document).ready(function(){
 	 	 $('#bxslider').bxSlider();
 		});
 		//未完処理
+		//var url = $(location).attr('href');
+		//$('#nav li a').each(function(){
+    //  var $href = $(this).attr('href');
+    //  if(url.match($href)) {
+    //  	$(this).addClass('active');
+    //  } else {
+    //  	$(this).removeClass('active');
+    //  }
+    //});
+
 
 	} else if(window_w < 568) {
 		//View on SP function
 		//sidr-right
 		$(document).ready(function() {
-		    $('.btn').sidr({
-		      name: 'sidr-right',
-		      side: 'right',
-		      speed:500,
-		      displace: false
-		    });
-		  });
+	    $('.btn').sidr({
+	      name: 'sidr-right',
+	      side: 'right',
+	      speed:500,
+	      displace: false
+	    });
+	  });
 		//SP menu height
 		var WrapperHeight = $('#wrapper').height();
 		var NavHeight = WrapperHeight - 50;
