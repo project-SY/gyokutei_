@@ -19,7 +19,7 @@
 		slideSelector: '',
 		infiniteLoop: true,
 		hideControlOnEnd: false,
-		speed: 500,
+		speed: 3000,
 		easing: null,
 		slideMargin: 0,
 		startSlide: 0,
@@ -52,7 +52,7 @@
 		pagerCustom: null,
 
 		// CONTROLS
-		controls: true,
+		controls: false,
 		nextText: 'Next',
 		prevText: 'Prev',
 		nextSelector: null,
