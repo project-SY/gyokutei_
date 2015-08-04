@@ -1,11 +1,12 @@
 <?php include('head.php'); ?>
   <?php include('nav.php'); ?>
   <div id="contents" class="index">
-    <div id="bxslider-area">
+    <img class="kv sp" src="./images/pic-index-kv-sp.png" alt="">
+    <div id="bxslider-area" class="pc">
       <ul id="bxslider">
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-02.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-03.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-01.png" alt="秋"></li>
+        <li><img src="./images/pic-bxslider-02.png" alt="春"></li>
+        <li><img src="./images/pic-bxslider-03.png" alt="冬"></li>
       </ul>
     </div>
     <div class="index-comment">

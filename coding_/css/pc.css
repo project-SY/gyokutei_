@@ -308,20 +308,54 @@ img {
   width: 685px;
   height: 20px;
 }
+
+
+.pager {
+  background-image: url("../images/border-info-dotted.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 27px;
+  margin-bottom: 119px;
+}
+
+.pager ul {
+  margin: 0 auto;
+  width: 224px;
+}
+
+.pager ul li {
+  width: 112px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.pager ul li a {
+  width: 112px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.pager ul li a img {
+  display: inline-block;
+  position: absolute;
+}
+
+.pager .icon-left {padding-right: 14px; left: 0;}
+.pager .icon-right {padding-left: 14px; right: 0;}
+
+
 /* ------------------------------------
 ◆　bath
 ------------------------------------ */
-.kv-bath {background-image: url("../images/pic-bath-kv.png");}
 .bath .caption-p {margin-bottom: 71px;}
 /* ------------------------------------
 ◆　room
 ------------------------------------ */
-.kv-room {background-image: url("../images/pic-room-kv.png");}
 .room .caption-p {margin-bottom: 71px;}
 /* ------------------------------------
 ◆　food
 ------------------------------------ */
-.kv-food {background-image: url("../images/pic-food-kv.png");}
 .food .caption-p {margin-bottom: 80px;}
 
 .food .food-subhead-01 {background-image: url("../images/txt-food-subhead-01.png");}
@@ -371,16 +405,8 @@ img {
 }
 
 /* ------------------------------------
-◆　chaji
------------------------------------- */
-.kv-chaji {background-image: url("../images/pic-chaji-kv.png");}
-
-
-
-/* ------------------------------------
 ◆　reservation
 ------------------------------------ */
-.kv-reservation {background-image: url("../images/pic-reservation-kv.png");}
 .reservation .caption-p {margin-bottom: 73px;}
 
 .reservation .reservation-subhead-01 {background-image: url("../images/txt-reservation-subhead-01.png");}
@@ -470,7 +496,6 @@ img {
 /* ------------------------------------
 ◆　access
 ------------------------------------ */
-.kv-access {background-image: url("../images/pic-access-kv.png");}
 .access .caption-p {
   margin-bottom: 85px;
 }
@@ -501,9 +526,143 @@ img {
 }
 
 /* ------------------------------------
+◆　blog
+------------------------------------ */
+.blog .caption-p {
+  margin-bottom: 52px;
+}
+
+.blog-area {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.blog .blog-articles {
+  width: 570px;
+  margin-right: 50px;
+  float: left;
+}
+
+.blog .blog-article a {
+  background-image: url("../images/border-blog.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 570px;
+  padding: 29px 0px 0px;
+  position: relative;
+  margin-bottom: 82px;
+  display: block;
+}
+
+.blog .blog-article h6 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.blog .blog-article time {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.blog .blog-article p {
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.blog .blog-article div {
+  background-image: url("../images/icon-blog-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px 16px;
+  padding-right: 26px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+
+/* ------------------------------------
+◆　blog/sidebar
+------------------------------------ */
+
+#blog-sidebar {
+  float: right;
+}
+
+#blog-sidebar .blog-sidebar-category {
+  background-image: url("../images/pic-blog-category.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 200px;
+  padding-top: 72px;
+  margin-bottom: 79px;
+}
+
+#blog-sidebar .blog-sidebar-posted {
+  background-image: url("../images/pic-blog-posted.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 200px;
+  padding-top: 72px;
+}
+
+#blog-sidebar ul li a {
+  font-size: 14px;
+  line-height: 33px;
+}
+
+/* ------------------------------------
+◆　blog/single
+------------------------------------ */
+#single {
+  width: 570px;
+  margin-right: 50px;
+  float: left;
+  background-image: url("../images/border-single-dotted.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 19px;
+}
+
+#single h2 {
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+#single time {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#single img {
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+#single p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 62px;
+}
+
+
+
+/* ------------------------------------
 ◆　info
 ------------------------------------ */
-.kv-info {background-image: url("../images/pic-info-kv.png");}
 .info .caption-p {
   margin-bottom: 70px;
 }
@@ -529,43 +688,6 @@ img {
   margin-bottom: 28px;
   display: inline-block;
 }
-
-.info .info-articles-pager {
-  background-image: url("../images/border-info-dotted.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding-top: 27px;
-  margin-bottom: 119px;
-}
-
-.info .info-articles-pager ul {
-  margin: 0 auto;
-  width: 224px;
-}
-
-.info .info-articles-pager ul li {
-  width: 112px;
-  float: left;
-  text-align: center;
-  position: relative;
-}
-
-.info .info-articles-pager ul li a {
-  width: 112px;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.info .info-articles-pager ul li a img {
-  display: inline-block;
-  position: absolute;
-}
-
-.info .info-back-left {padding-right: 14px; left: 0;}
-.info .info-next-right {padding-left: 14px; right: 0;}
-
-
-
 
 /* ------------------------------------
 ◆　footer

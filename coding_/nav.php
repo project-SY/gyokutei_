@@ -14,7 +14,7 @@
           <li><a href="chaji.php"><div class="nav-text nav-chaji"></div></a></li>
           <li><a href="reservation.php"><div class="nav-text nav-reservation"></div></a></li>
           <li><a href="access.php"><div class="nav-text nav-access"></div></a></li>
-          <li><a href=""><div class="nav-text nav-blog"></div></a></li>
+          <li><a href="blog.php"><div class="nav-text nav-blog"></div></a></li>
           <li><a href="info.php"><div class="nav-text nav-info"></div></a></li>
         </ul>
       </div>

@@ -29,10 +29,10 @@
 				</p>
 			</div>
 			<!--ループ処理 end-->
-			<div class="info-articles-pager">
+			<div class="pager">
 				<ul class="clearfix">
-					<li><a href=""><img class="info-back-left" src="./images/icon-info-left-allow.png" alt="">過去の投稿</a></li>
-					<li><a href="">新しい投稿<img class="info-next-right" src="./images/icon-info-right-allow.png" alt=""></a></li>
+					<li><a href=""><img class="icon-left" src="./images/icon-info-left-allow.png" alt="">過去の投稿</a></li>
+					<li><a href="">新しい投稿<img class="icon-right" src="./images/icon-info-right-allow.png" alt=""></a></li>
 				</ul>
 			</div>
 		</div>

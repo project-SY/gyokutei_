@@ -2,8 +2,8 @@ $(function(){
 	var window_w = $(window).width();
 	var window_h = $(window).height();
 
-	var $check = $(location).attr('href');
-  console.log($check);
+	//var $check = $(location).attr('href');
+  //console.log($check);
 
 
 	if (window_w > 569) {
