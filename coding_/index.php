@@ -4,8 +4,8 @@
     <div id="bxslider-area">
       <ul id="bxslider">
         <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-02.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-03.png" alt=""></li>
       </ul>
     </div>
     <div class="index-comment">
