@@ -10,7 +10,7 @@
     </div>
     <div class="index-comment">
       <img class="sp" src="./images/txt-index-subtitle-sp.png" alt="">
-      <img class="index-comment-txt" src="./images/txt-index-comment.png" alt="女将からのごあいさつ">
+      <div class="index-comment-txt"></div>
       <p>
         風薫る清々しい季節、私の一番好きな季節になりました。 新緑に包まれ、つつじや未央柳などの和花が彩りを添えます。
         庭内の緑の木々の美しさに感動しています。<br />

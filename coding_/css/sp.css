@@ -236,7 +236,12 @@ img {
 }
 
 .index .index-comment-txt {
-  width: 142px;
+  background-image: url("../images/txt-index-comment-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 163px;
+  height: 17px;
   margin: 0 auto 40px;
 }
 
@@ -269,32 +274,42 @@ img {
   margin-top: 150px;
 }
 
-
-/* ------------------------------------
-◆　bath
------------------------------------- */
-.kv-bath {background-image: url("../images/pic-bath-kv-sp.png");}
-
-
-/* ------------------------------------
-◆　room
------------------------------------- */
-.kv-room {background-image: url("../images/pic-room-kv-sp.png");}
 /* ------------------------------------
 ◆　food
 ------------------------------------ */
-.kv-food {background-image: url("../images/pic-food-kv-sp.png");}
+.food .food-block img,
+.food .food-block-last img {
+  width: 85%;
+  margin: 0 auto 23px;
+}
 
-/* ------------------------------------
-◆　chaji
------------------------------------- */
-.kv-chaji {background-image: url("../images/pic-chaji-kv-sp.png");}
+.food .food-block p,
+.food .food-block-last p {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0px 30px;
+  margin-bottom: 52px;
+}
 
+.food .food-block h6 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 19px;
+  background-image: url("../images/border-food-dotted-sp.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  width: 85%;
+  margin: 0px auto 52px;
+}
 
+.food .pagetop {
+  margin-top: 60px;
+}
 /* ------------------------------------
 ◆　reservation
 ------------------------------------ */
-.kv-reservation {background-image: url("../images/pic-reservation-kv-sp.png");}
 .reservation .caption-p {
   margin-bottom: 60px;
 }
@@ -398,7 +413,6 @@ img {
 /* ------------------------------------
 ◆　info
 ------------------------------------ */
-.kv-info {background-image: url("../images/pic-info-kv-sp.png");}
 .info .info-articles {
   margin: 0px 30px 60px;
   background-image: url("../images/border-info.png");

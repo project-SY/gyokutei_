@@ -171,6 +171,12 @@ img {
 }
 
 .index .index-comment .index-comment-txt {
+  background-image: url("../images/txt-index-comment.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 203px;
+  height: 20px;
   margin: 0 auto 28px;
 }
 
