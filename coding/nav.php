@@ -7,14 +7,15 @@
           <a class="close-btn btn" href="#"><img src="./images/btn-menu-off-sp.png" alt=""></a>
         </div>
         <ul>
-          <li><a href="index.php"><img src="./images/txt-sidebar-top.png" alt="トップ"></a></li>
-          <li><a href="bath.php"><img src="./images/txt-sidebar-bath.png" alt="お風呂"></a></li>
-          <li><a href="room.php"><img src="./images/txt-sidebar-room.png" alt="お部屋"></a></li>
-          <li><a href=""><img src="./images/txt-sidebar-food.png" alt="お料理"></a></li>
-          <li><a href="reservation.php"><img src="./images/txt-sidebar-reservation.png" alt="予約"></a></li>
-          <li><a href="access.php"><img src="./images/txt-sidebar-access.png" alt="交通"></a></li>
-          <li><a href=""><img src="./images/txt-sidebar-blog.png" alt="ブログ"></a></li>
-          <li><a href="info.php"><img src="./images/txt-sidebar-info.png" alt="お知らせ"></a></li>
+          <li><a href="index.php"><div class="nav-text nav-index"></div></a></li>
+          <li><a href="bath.php"><div class="nav-text nav-bath"></div></a></li>
+          <li><a href="room.php"><div class="nav-text nav-room"></div></a></li>
+          <li><a href="food.php"><div class="nav-text nav-food"></div></a></li>
+          <li><a href="chaji.php"><div class="nav-text nav-chaji"></div></a></li>
+          <li><a href="reservation.php"><div class="nav-text nav-reservation"></div></a></li>
+          <li><a href="access.php"><div class="nav-text nav-access"></div></a></li>
+          <li><a href="blog.php"><div class="nav-text nav-blog"></div></a></li>
+          <li><a href="info.php"><div class="nav-text nav-info"></div></a></li>
         </ul>
       </div>
     </div>

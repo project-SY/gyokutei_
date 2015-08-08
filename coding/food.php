@@ -1,7 +1,10 @@
 <?php include('head.php'); ?>
 	<?php include('nav.php'); ?>
 	<div id="contents" class="food">
-		<div class="kv-same kv-food"></div>
+		<div class="kv-same">
+  		<img class="pc" src="./images/pic-food-kv.png" alt="お料理">
+  		<img class="sp" src="./images/pic-food-kv-sp.png" alt="お料理">
+  	</div>
 		<img src="./images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="./images/txt-food-caption.png" alt="お料理" class="caption pc">
 		<p class="caption-p">玉庭の伝統の味に料理長の心意気とアイデアが光る出来たてのお料理をお出ししています。<br />絶妙のタイミングでお部屋に運ばれる料理は素材本来の旨みを生かした繊細な味付け端正な器とともに出来たてをお召し上がりください。</p>

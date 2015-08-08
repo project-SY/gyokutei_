@@ -104,7 +104,7 @@ img {
 
 #sidr-right {
   display: none;
-  width: 186px;
+  width: 250px;
   border-left: solid 4px rgba(111, 127, 110, 0.4);
   position: absolute;
   top: 0;
@@ -131,7 +131,7 @@ img {
 }
 
 #sidr-right .close-btn-area .close-btn img {
-  width: 32px;
+  width: 30px;
   height: 30px;
   display: block;
 }
@@ -153,15 +153,30 @@ img {
   background-size: 6px 11px;
 }
 
+.nav-text {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.nav-index {background-image: url("../images/txt-sidebar-top-sp.png"); width: 55px; height: 19px;}
+.nav-bath {background-image: url("../images/txt-sidebar-bath-sp.png"); width: 52px; height: 17px;}
+.nav-room {background-image: url("../images/txt-sidebar-room-sp.png"); width: 54px; height: 17px;}
+.nav-food {background-image: url("../images/txt-sidebar-food-sp.png"); width: 59px; height: 18px;}
+.nav-chaji {background-image: url("../images/txt-sidebar-chaji-sp.png"); width: 58px; height: 19px;}
+.nav-reservation {background-image: url("../images/txt-sidebar-reservation-sp.png"); width: 56px; height: 18px;}
+.nav-access {background-image: url("../images/txt-sidebar-access-sp.png"); width: 38px; height: 18px;}
+.nav-blog {background-image: url("../images/txt-sidebar-blog-sp.png"); width: 58px; height: 17px;}
+.nav-info {background-image: url("../images/txt-sidebar-info-sp.png"); width: 79px; height: 17px;}
+
+
+
 /* ------------------------------------
 ◆　contents/same
 ------------------------------------ */
-.kv-same {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  min-width: 320px;
-  height: 125px;
+.kv-same img {
+  width: 100%;
+  min-height: 125px;
   margin-bottom: 60px;
 }
 
@@ -195,27 +210,76 @@ img {
   margin-bottom: 20px;
 }
 
+.subhead {
+  height: 15px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+
+.article-1 {
+  background-color:  rgba(0, 0, 0, 0.03);
+}
+
+.pager {
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding: 23px 40px;
+}
+
+.pager ul li {
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.pager ul li:last-child {
+  float: right;
+}
+
+
+.pager ul li a {
+  font-size: 15px;
+  line-height: 21px;
+  display: inline-block;
+}
+
+.pager ul li a img {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+  height: 12px;
+}
+
+.pager .icon-left {
+  left: -24px;
+}
+
+.pager .icon-right {
+  right: -24px;
+}
+
+
 
 /* ------------------------------------
 ◆　index
 ------------------------------------ */
-#bxslider li img {
-  width: 100%;
-}
-
-#bxslider li:not(:first-child) {
-  display: none;
-}
-
-
-
+.kv {width: 100%;}
 .index .index-comment .sp {
   width: 100%;
   margin-bottom: 60px;
 }
 
 .index .index-comment-txt {
-  width: 142px;
+  background-image: url("../images/txt-index-comment-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 163px;
+  height: 17px;
   margin: 0 auto 40px;
 }
 
@@ -244,23 +308,149 @@ img {
   width: 100%;
 }
 
+.index .pagetop {
+  margin-top: 150px;
+}
 
 /* ------------------------------------
-◆　bath
+◆　food
 ------------------------------------ */
-.kv-bath {background-image: url("../images/pic-bath-kv-sp.png");}
+.food .food-block img,
+.food .food-block-last img {
+  width: 85%;
+  margin: 0 auto 23px;
+}
 
+.food .food-block p,
+.food .food-block-last p {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0px 30px;
+  margin-bottom: 52px;
+}
 
+.food .food-block h6 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 19px;
+  background-image: url("../images/border-food-dotted-sp.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  width: 85%;
+  margin: 0px auto 52px;
+}
+
+.food .pagetop {
+  margin-top: 60px;
+}
 /* ------------------------------------
-◆　room
+◆　reservation
 ------------------------------------ */
-.kv-room {background-image: url("../images/pic-room-kv-sp.png");}
+.reservation .caption-p {
+  margin-bottom: 60px;
+}
+.reservation .reservation-inner {
+  padding: 50px 30px;
+}
+
+.reservation .reservation-inner-color {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.reservation .reservation-subhead-01 {background-image: url("../images/txt-reservation-subhead-01-sp.png"); margin-bottom: 30px;}
+.reservation .reservation-subhead-02 {background-image: url("../images/txt-reservation-subhead-02-sp.png"); margin-bottom: 30px;}
+.reservation .reservation-subhead-03 {background-image: url("../images/txt-reservation-subhead-03-sp.png"); margin-bottom: 20px;}
+
+.reservation .reservation-desc {
+  font-size: 13px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.reservation .reservation-price {
+  background-image: url("../images/pic-reservation-price-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 392px;
+}
+
+.reservation .reservation-info {
+  background-image: url("../images/pic-reservation-info-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 246px;
+}
+
+.reservation .reservation-subtitle-01 {
+  background-image: url("../images/txt-reservation-subtitle-01-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 67px;
+  margin-bottom: 20px;
+}
+
+.reservation .reservation-subtitle-02 {
+  background-image: url("../images/txt-reservation-subtitle-02-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 56px;
+  margin-bottom: 35px;
+}
+
+
+.reservation .reservation-inner h6 {
+  font-size: 35px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+
+.reservation .reservation-inner .sp {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.reservation .reservation-btn-area ul li a {
+  display: block;
+  width: 200px;
+  height: 42px;
+  margin: 0 auto;
+}
+
+.reservation .reservation-btn-area ul li a img {
+  width: 200px;
+  height: 42px;
+}
+
+.reservation .reservation-btn-area ul li {
+  margin-bottom: 30px;
+}
+
+.reservation .reservation-btn-area ul li:last-child {
+  margin-bottom: 10px;
+}
+
+.reservation .pagetop {
+  margin-top: 60px;
+}
+
+
 
 
 /* ------------------------------------
 ◆　info
 ------------------------------------ */
-.kv-info {background-image: url("../images/pic-info-kv-sp.png");}
 .info .info-articles {
   margin: 0px 30px 60px;
   background-image: url("../images/border-info.png");
@@ -291,68 +481,16 @@ img {
 
 .info .info-articles-article p {display: none;}
 
-.info .article-1 {
-  background-color:  rgba(0, 0, 0, 0.03);
-}
-
-.info .info-articles-pager {
-  background-image: url("../images/border-info.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  padding: 23px 30px;
-}
-
-.info .info-articles-pager ul li {
-  float: left;
-  text-align: center;
-  position: relative;
-}
-.info .info-articles-pager ul li:last-child {
-  float: right;
-}
-
-
-.info .info-articles-pager ul li a {
-  font-size: 15px;
-  line-height: 21px;
-  display: inline-block;
-}
-
-.info .info-articles-pager ul li a img {
-  display: inline-block;
-  position: absolute;
-  top: 5px;
-  width: 7px;
-  height: 12px;
-}
-
-.info .info-back-left {
-  left: -12px;
-}
-
-.info .info-next-right {
-  right: -12px;
-}
 /* ------------------------------------
 ◆　access
 ------------------------------------ */
 .kv-access {background-image: url("../images/pic-access-kv-sp.png");}
 .access .access-route {
-  background-image: url("../images/pic-access-route-sp.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  width: 85%;
-  min-height: 343px;
-  margin: 0 auto 63px;
+  margin: 0px 30px 63px;
 }
 
-.access .access-subhead {
-  height: 15px;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+.access .access-route img {
+  width: 100%;
 }
 
 .access .access-subhead-route {
@@ -368,9 +506,8 @@ img {
 }
 
 #map {
-  width: 85%;
   min-height: 310px;
-  margin: 0 auto 61px;
+  margin: 0 30px 61px;
 }
 
 .access .access-about {
@@ -380,6 +517,93 @@ img {
   margin-bottom: 60px;
 }
 
+/* ------------------------------------
+◆　blog
+------------------------------------ */
+.blog .blog-articles {
+  margin: 0px 30px 62px;
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.blog .blog-article {
+  background-image: url("../images/border-info.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+
+.blog .blog-article a {
+  padding: 25px 12px 23px;
+  display: block;
+}
+
+.blog .blog-article h6 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 46px;
+}
+
+.blog .blog-article time {
+  font-size: 11px;
+  line-height: 18px;
+  color: #808080
+}
+
+.blog .blog-article p {
+  display: none;
+}
+
+.blog .blog-article div {
+  display: none;
+}
+
+
+/* ------------------------------------
+◆　blog/single
+------------------------------------ */
+#single {
+  margin: 0px 30px;
+}
+
+#single img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#single .blog-title {
+  background-image: url("../images/bg-single-headline-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 15px 10px;
+  margin-bottom: 9px;
+}
+
+#single .blog-title h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  margin-bottom: 9px;
+}
+
+#single .blog-title time {
+  font-size: 11px;
+}
+
+#single p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 39px;
+}
+
+
+
+
+
 
 
 /* ------------------------------------
@@ -388,7 +612,7 @@ img {
 .pagetop {
   width: 199px;
   height: 42px;
-  margin: 0 auto 37px;
+  margin: 0 auto 60px;
   display: block;
 }
 

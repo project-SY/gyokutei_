@@ -1,17 +1,17 @@
 <?php include('head.php'); ?>
   <?php include('nav.php'); ?>
   <div id="contents" class="index">
-    <div id="bxslider-area">
+    <img class="kv sp" src="./images/pic-index-kv-sp.png" alt="">
+    <div id="bxslider-area" class="pc">
       <ul id="bxslider">
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
-        <li><img src="./images/pic-bxslider-01.png" alt=""></li>
+        <li><img src="./images/pic-bxslider-01.png" alt="秋"></li>
+        <li><img src="./images/pic-bxslider-02.png" alt="春"></li>
+        <li><img src="./images/pic-bxslider-03.png" alt="冬"></li>
       </ul>
     </div>
     <div class="index-comment">
       <img class="sp" src="./images/txt-index-subtitle-sp.png" alt="">
-      <img class="index-comment-txt" src="./images/txt-index-comment.png" alt="女将からのごあいさつ">
+      <div class="index-comment-txt"></div>
       <p>
         風薫る清々しい季節、私の一番好きな季節になりました。 新緑に包まれ、つつじや未央柳などの和花が彩りを添えます。
         庭内の緑の木々の美しさに感動しています。<br />
@@ -21,12 +21,14 @@
     </div>
     <div class="index-links sp">
       <ul>
-        <li><a href=""><img src="./images/link-index-bath-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-room-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-food-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-reservation-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-access-sp.png" alt=""></a></li>
-        <li><a href=""><img src="./images/link-index-blog-sp.png" alt=""></a></li>
+        <li><a href="bath.php"><img src="./images/link-index-bath-sp.png" alt="お風呂"></a></li>
+        <li><a href="room.php"><img src="./images/link-index-room-sp.png" alt="お部屋"></a></li>
+        <li><a href="food.php"><img src="./images/link-index-food-sp.png" alt="お料理"></a></li>
+        <li><a href="chaji.php"><img src="./images/link-index-chaji-sp.png" alt="お茶事"></a></li>
+        <li><a href="reservation.php"><img src="./images/link-index-reservation-sp.png" alt="ご予約"></a></li>
+        <li><a href="access.php"><img src="./images/link-index-access-sp.png" alt="交通"></a></li>
+        <li><a href="blog.php"><img src="./images/link-index-blog-sp.png" alt="ブログ"></a></li>
+        <li><a href="info.php"><img src="./images/link-index-info-sp.png" alt=""></a></li>
       </ul>
     </div>
     <div class="index-carousel-area clearfix pc">
