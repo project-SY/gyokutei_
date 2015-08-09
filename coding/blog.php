@@ -45,10 +45,31 @@
 			</div>
 			<div id="selecters" class="">
 				<div class="select-category">
-					
+					<div class="select-btn">
+						<p>カテゴリー</p>
+						<div class="pull-down-btn">
+							<img class="triangle" src="./images/icon-blog-accordion-arrow.png">
+						</div>
+					</div>
+					<ul class="category-lists">
+						<li>カテゴリー1</li>
+						<li>カテゴリー2</li>
+						<li>カテゴリー3</li>
+					</ul>
 				</div>
 				<div class="select-posted">
-					
+					<div class="select-btn">
+						<p>過去の投稿</p>
+						<div class="pull-down-btn">
+							<img class="triangle" src="./images/icon-blog-accordion-arrow.png">
+						</div>
+					</div>
+					<ul class="posted-lists">
+						<li>過去の投稿1</li>
+						<li>過去の投稿2</li>
+						<li>過去の投稿3</li>
+					</ul>
+				</div>
 				</div>
 			</div>
 			<?php include('blog-sidebar.php'); ?>

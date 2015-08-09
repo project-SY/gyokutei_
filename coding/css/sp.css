@@ -210,6 +210,12 @@ img {
   margin-bottom: 20px;
 }
 
+.media .media-text p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
 .subhead {
   height: 15px;
   background-repeat: no-repeat;
@@ -561,6 +567,46 @@ img {
   display: none;
 }
 
+#selecters .select-category,
+#selecters .select-posted {
+  position: relative;
+  margin: 0 30px 30px;
+}
+
+#selecters .select-btn {
+  display: block;
+  position: relative;
+  padding: 10px 0 10px 10px;
+  border: 2px solid #859882;
+}
+
+#selecters .pull-down-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  background-color: #859882;
+}
+
+#selecters .triangle {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 6px;
+}
+
+#selecters .category-lists,
+#selecters .posted-lists {
+  display: none;
+}
+
+#selecters .category-lists li,
+#selecters .posted-lists li {
+  border: 1px solid #859882;
+  padding-left: 10px;
+  border-top: none;
+}
 
 /* ------------------------------------
 ◆　blog/single
