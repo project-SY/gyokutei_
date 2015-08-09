@@ -183,7 +183,7 @@ img {
 .index .index-comment p {
   color:  #2d2d2d;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 24px;
   text-align: center;
   width: 700px;
   margin: 0 auto 74px;
@@ -390,7 +390,7 @@ img {
 
 .food .food-block p {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .food .food-block h6 {
@@ -562,6 +562,7 @@ img {
 }
 
 .blog .blog-article time {
+  display: block;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 30px;

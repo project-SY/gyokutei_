@@ -41,6 +41,10 @@ $(function(){
 		$(window).load(function () {
 	    $("#nav .inner").css("height", NavHeight+"px")
 		});
+		$('.select-btn').click(function() {
+				// セレクトボタンが押されたら、押されたセレクトボタンの兄弟要素のulをslideToggleで開閉する。
+				$(this).siblings('ul').slideToggle();
+		});
 
 		//SP menu btn
 		//$(window).load(function(){
