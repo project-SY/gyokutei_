@@ -567,45 +567,45 @@ img {
   display: none;
 }
 
-#selecters .select-category,
-#selecters .select-posted {
-  position: relative;
+.blog-sidebar-category,
+.blog-sidebar-posted {
   margin: 0 30px 30px;
+  border: 2px solid #859882;
+  background-color: #fff;
 }
 
-#selecters .select-btn {
-  display: block;
+.blog-sidebar-category .sp-blog-menu,
+.blog-sidebar-posted .sp-blog-menu {
   position: relative;
   padding: 10px 0 10px 10px;
-  border: 2px solid #859882;
 }
 
-#selecters .pull-down-btn {
+.blog-sidebar-category .select-btn,
+.blog-sidebar-posted .select-btn {
   position: absolute;
   top: 0px;
   right: 0px;
   width: 42px;
   height: 42px;
-  background-color: #859882;
+  background-image: url("../images/bg-blog-menu-btn.png")
 }
 
-#selecters .triangle {
-  display: block;
+.triangle {
   position: absolute;
-  top: 8px;
-  left: 6px;
+  top: 16px;
+  right: 13px;
+  width: 15px;
 }
 
-#selecters .category-lists,
-#selecters .posted-lists {
+.blog-sidebar-category ul,
+.blog-sidebar-posted ul {
   display: none;
 }
 
-#selecters .category-lists li,
-#selecters .posted-lists li {
-  border: 1px solid #859882;
-  padding-left: 10px;
-  border-top: none;
+.blog-sidebar-category ul li,
+.blog-sidebar-posted ul li {
+  padding: 12px 0px 12px 12px;
+  border-top: 2px solid #859882;
 }
 
 /* ------------------------------------
