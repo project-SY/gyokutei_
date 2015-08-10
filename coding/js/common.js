@@ -43,7 +43,14 @@ $(function(){
 		});
 		$('.select-btn').click(function() {
 				// セレクトボタンが押されたら、押されたセレクトボタンの兄弟要素のulをslideToggleで開閉する。
-				$(this).siblings('ul').slideToggle();
+				var blogMenuUl = $(this).parent('.sp-blog-menu').siblings('ul');
+				blogMenuUl.slideToggle();
+				$(this).toggleClass('open');
+				if ( $(this).hasClass('open') ) {
+					$(this).find('.triangle').attr('src','http://localhost/coding/images/icon-blog-accordion-arrow-attr.png');
+				} else {
+					$(this).find('.triangle').attr('src','http://localhost/coding/images/icon-blog-accordion-arrow.png');
+				}
 		});
 
 		//SP menu btn
