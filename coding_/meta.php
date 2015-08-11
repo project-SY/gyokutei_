@@ -21,4 +21,7 @@
 <script type="text/javascript" src="./js/map.js"></script>
 <script src="./js/common.js"></script>
 <script src="./js/slick.js"></script>
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="./css/pc.css" />
+<![endif]-->
 </head>

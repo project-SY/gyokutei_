@@ -43,14 +43,6 @@
 					</ul>
 				</div>
 			</div>
-			<div id="selecters" class="">
-				<div class="select-category">
-					
-				</div>
-				<div class="select-posted">
-					
-				</div>
-			</div>
 			<?php include('blog-sidebar.php'); ?>
 		</div>
 <?php include('footer.php'); ?>

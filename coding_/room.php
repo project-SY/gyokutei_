@@ -1,54 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8" />
-<title>玉庭</title>
-<meta name="keywords" content="###">
-<meta name="description" content="###" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-<meta property="og:type" content="###" />
-<meta property="og:url" content="###" />
-<meta property="og:title" content="###" />
-<meta property="og:description" content="###" />
-<meta property="og:image" content="###" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/slick.css">
-<link rel="stylesheet" href="./css/jquery.bxslider.css">
-<script src="./js/jquery-1.11.3.min.js"></script>
-<script src="./js/jquery.sidr.min.js"></script>
-<script type="text/javascript" src="./js/jquery.bxslider.js"></script>
-<script src="http://www.google.com/jsapi/"></script>
-<script type="text/javascript" src="./js/map.js"></script>
-<script src="./js/common.js"></script>
-<script src="./js/slick.js"></script>
-</head>
-<body>
-<!-- wrapper start -->
-<div id="wrapper" class="clearfix no-active">
-  <div id="nav">
-    <a class="logo" href="index.php"><img src="./images/logo.png" alt="玉庭"></a>
-    <a class="open-btn btn"><img class="close" src="./images/btn-menu-on-sp.png" alt=""></a>
-    <div id="sidr-right" class="sidr right">
-      <div class="inner">
-        <div class="close-btn-area clearfix">
-          <a class="close-btn btn" href="#"><img src="./images/btn-menu-off-sp.png" alt=""></a>
-        </div>
-        <ul>
-          <li><a href="index.php"><div class="nav-text nav-index"></div></a></li>
-          <li><a href="bath.php"><div class="nav-text nav-bath"></div></a></li>
-          <li><a href="room.php"><div class="nav-text nav-room"></div></a></li>
-          <li><a href="food.php"><div class="nav-text nav-food"></div></a></li>
-          <li><a href="chaji.php"><div class="nav-text nav-chaji"></div></a></li>
-          <li><a href="reservation.php"><div class="nav-text nav-reservation"></div></a></li>
-          <li><a href="access.php"><div class="nav-text nav-access"></div></a></li>
-          <li><a href=""><div class="nav-text nav-blog"></div></a></li>
-          <li><a href="info.php"><div class="nav-text nav-info"></div></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<?php include('head.php'); ?>
+	<?php include('nav.php'); ?>
 	<div id="contents" class="room">
 		<div class="kv-same">
   		<img class="pc" src="./images/pic-room-kv.png" alt="お部屋">
@@ -56,7 +7,10 @@
   	</div>
 		<img src="./images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="./images/txt-room-caption.png" alt="お部屋" class="caption pc">
-		<p class="caption-p">茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い<br />始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ</p>
+		<p class="caption-p">「玉のような美しい庭」のある旅館という意味で玉庭と名付けられました。自然のままを生かした、<br />
+			静かな庭の中に、池を取り囲むように８棟の離れのお部屋があります。<br />
+			どのお部屋からも四季豊かな木や和花を楽しむ事ができます。<br />
+		</p>
 		<div class="media clearfix">
 			<div class="media-img">
    			<img src="./images/pic-room-img-01.png" alt="">
@@ -65,7 +19,7 @@
 				<img class="pc" src="./images/border-same.png" alt="">
 				<h5>離れについて</h5>
 				<img src="./images/border-same.png" alt="">
-				<p>茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる「茶事」として「茶事」は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる。</p>
+				<p>春は桜、竹林、あじさいなど、夏は百日紅（さるすべり）秋はもみじ、冬は梅、桃など、玉庭の庭はいごこちが良いのか、たくさんの野鳥が訪れてくれ、季節の移り変わりを知らせてくれています。８棟のお部屋はそれぞれ、見えるお庭の景色も違います。常連のお客様はいつも同じお部屋にお泊りになられる方や、毎回違うお部屋を楽しまれる方もいらっしゃいます。お泊まりくださるお客様が、まるで懐かしい我が家に帰ってきたかのような気持ちでくつろいでお帰りいただければと願っております。</p>
 			</div>
 		</div>
 		<div class="media clearfix">
@@ -76,7 +30,7 @@
 				<img class="pc" src="./images/border-same.png" alt="">
 				<h5>お部屋について−１</h5>
 				<img src="./images/border-same.png" alt="">
-				<p>茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる「茶事」として「茶事」は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる。</p>
+				<p>客室は三間続きの広々した空間でお二人様からご家族、小グループのご旅行まで幅広くご利用いただいております。又、客室内のお風呂も源泉を引湯し、プライベートでいつでもお好きな時に温泉を心ゆくまでご堪能いただけます。</p>
 			</div>
 		</div>
 		<div class="media clearfix">
@@ -87,17 +41,7 @@
 				<img class="pc" src="./images/border-same.png" alt="">
 				<h5>お部屋について−２</h5>
 				<img src="./images/border-same.png" alt="">
-				<p>茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる「茶事」として「茶事」は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ前年の茶の残りを心おしみつつ使う晩秋の(名残の)茶まで、季節に応ずる。</p>
+				<p>お部屋の濡縁で鳥の鳴き声や木々の間を吹き抜けて行く風を感じながら、温泉に浸ったり、しばし、非日常のゆったりした贅沢な時間を味わってください。お夕食は、お部屋で季節の懐石料理を味わってください。一品一品ずつ、お客様のお食事の進み具合にあわせて、お運びいたします。座卓にお座りになるのが困難な方には、テーブルといすもご用意いたしております。</p>
 			</div>
 		</div>
-		<a href="#" class="pagetop sp"><img src="./images/btn-footer-pagetop-sp.png" alt="ページトップへ戻る"></a>
-    <footer id="footer">
-        <p>
-	  	    箱根湯本温泉　玉庭(ぎょくてい)<br />
-	   	    250-0311　神奈川県足柄下郡箱根町湯本501&nbsp;&nbsp;<span>TEL: 0560-85-8501　FAX: 0460-85-8505</span>
-	      </p>
-    </footer>
-  </div>
-</div>
-</body>
-</html>
+<?php include('footer.php'); ?>

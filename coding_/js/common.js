@@ -39,7 +39,18 @@ $(function(){
 		var WrapperHeight = $('#wrapper').height();
 		var NavHeight = WrapperHeight - 50;
 		$(window).load(function () {
-	    $("#nav .inner").css("height", NavHeight+"px")
+	    $("#nav .inner").css("height", NavHeight+"px");
+		});
+		$('.select-btn').click(function() {
+				// セレクトボタンが押されたら、押されたセレクトボタンの兄弟要素のulをslideToggleで開閉する。
+				var blogMenuUl = $(this).parent('.sp-blog-menu').siblings('ul');
+				blogMenuUl.slideToggle();
+				$(this).toggleClass('open');
+				if ( $(this).hasClass('open') ) {
+					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow-attr.png');
+				} else {
+					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow.png');
+				}
 		});
 
 		//SP menu btn

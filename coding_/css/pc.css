@@ -99,10 +99,19 @@ img {
 
 #sidr-right ul li {
   border-top: solid 1px #cbcac6;
+  /*
+  background-image: url("../images/border-index-sidebar.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  */
   padding: 10px 0px;
 }
 
 #sidr-right ul li:first-child {
+  /*
+  background: none;
+  */
   border: none;
   padding: 0px 0px 10px;
 }
@@ -183,7 +192,7 @@ img {
 .index .index-comment p {
   color:  #2d2d2d;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 24px;
   text-align: center;
   width: 700px;
   margin: 0 auto 74px;
@@ -390,7 +399,7 @@ img {
 
 .food .food-block p {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .food .food-block h6 {
@@ -562,6 +571,7 @@ img {
 }
 
 .blog .blog-article time {
+  display: block;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 30px;
@@ -632,6 +642,7 @@ img {
   background-position: top center;
   background-size: contain;
   padding-top: 19px;
+  margin-bottom: 20px;
 }
 
 #single h2 {
@@ -656,6 +667,93 @@ img {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 62px;
+}
+
+#comments {
+  margin-bottom: 133px;
+}
+
+#comments .comment-headline {
+  background-image: url("../images/bg-single-comment.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 28px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#comments .comment-view {
+  background-image: url("../images/border-blog-dotted.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 19px;
+}
+
+#comments .comment-view h5 {
+  margin: 29px 0px 6px;
+  font-size: 16px;
+  background-image: url("../images/icon-single.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 15px;
+}
+
+#comments .comment-view time  {
+  font-size: 12px;
+  padding-left: 15px;
+  margin-bottom: 21px;
+}
+
+#comments .comment-view p {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0px 15px;
+  margin-bottom: 0px;
+}
+
+#comments .comment-form {
+  margin-top: 54px;
+}
+
+#comments .comment-form textarea {
+  width: 564px;
+  height: 110px;
+  resize: none;
+  border: solid 1px #d6d4c4;
+  margin: 10px 0px;
+}
+
+#comments .comment-form input {
+  width: 564px;
+  height: 26px;
+  border: solid 1px #d6d4c4;
+  margin-bottom: 10px;
+}
+
+#comments .comment-form div input {
+  width: 14px;
+  height: 14px;
+}
+
+#comments .comment-form div label {
+  font-size: 14px;
+}
+
+#comments .submit {
+  margin: 40px auto 0px;
+  background-image: url("../images/btn-single-comment.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 200px!important;
+  height: 42px!important;
+  border:none;
+  padding: 0px!important;
+  text-indent:-9999px;
+  display:block;
 }
 
 

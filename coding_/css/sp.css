@@ -210,6 +210,12 @@ img {
   margin-bottom: 20px;
 }
 
+.media .media-text p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
 .subhead {
   height: 15px;
   background-repeat: no-repeat;
@@ -352,7 +358,7 @@ img {
   margin-bottom: 60px;
 }
 .reservation .reservation-inner {
-  padding: 50px 40px;
+  padding: 50px 30px;
 }
 
 .reservation .reservation-inner-color {
@@ -561,13 +567,84 @@ img {
   display: none;
 }
 
+.blog-sidebar-category,
+.blog-sidebar-posted {
+  margin: 0 30px 30px;
+  border: 2px solid #859882;
+  background-color: #fff;
+}
+
+.blog-sidebar-category .sp-blog-menu,
+.blog-sidebar-posted .sp-blog-menu {
+  position: relative;
+  padding: 10px 0 10px 10px;
+}
+
+.blog-sidebar-category .select-btn,
+.blog-sidebar-posted .select-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  background-image: url("../images/bg-blog-menu-btn.png")
+}
+
+.triangle {
+  position: absolute;
+  top: 16px;
+  right: 13px;
+  width: 15px;
+}
+
+.blog-sidebar-category ul,
+.blog-sidebar-posted ul {
+  display: none;
+}
+
+.blog-sidebar-category ul li,
+.blog-sidebar-posted ul li {
+  padding: 12px 0px 12px 12px;
+  border-top: 2px solid #859882;
+}
 
 /* ------------------------------------
 ◆　blog/single
 ------------------------------------ */
+#single {
+  margin: 0px 30px;
+}
 
+#single img {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
+#single .blog-title {
+  background-image: url("../images/bg-single-headline-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 15px 10px;
+  margin-bottom: 9px;
+}
 
+#single .blog-title h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  margin-bottom: 9px;
+}
+
+#single .blog-title time {
+  font-size: 11px;
+}
+
+#single p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 39px;
+}
 
 
 
