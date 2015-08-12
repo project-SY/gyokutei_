@@ -99,10 +99,19 @@ img {
 
 #sidr-right ul li {
   border-top: solid 1px #cbcac6;
+  /*
+  background-image: url("../images/border-index-sidebar.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  */
   padding: 10px 0px;
 }
 
 #sidr-right ul li:first-child {
+  /*
+  background: none;
+  */
   border: none;
   padding: 0px 0px 10px;
 }

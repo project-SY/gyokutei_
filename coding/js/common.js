@@ -31,7 +31,7 @@ $(function(){
 	    $('.btn').sidr({
 	      name: 'sidr-right',
 	      side: 'right',
-	      speed:500,
+	      speed: 500,
 	      displace: false
 	    });
 	  });
@@ -39,7 +39,7 @@ $(function(){
 		var WrapperHeight = $('#wrapper').height();
 		var NavHeight = WrapperHeight - 50;
 		$(window).load(function () {
-	    $("#nav .inner").css("height", NavHeight+"px")
+	    $("#nav .inner").css("height", NavHeight+"px");
 		});
 		$('.select-btn').click(function() {
 				// セレクトボタンが押されたら、押されたセレクトボタンの兄弟要素のulをslideToggleで開閉する。
@@ -47,9 +47,9 @@ $(function(){
 				blogMenuUl.slideToggle();
 				$(this).toggleClass('open');
 				if ( $(this).hasClass('open') ) {
-					$(this).find('.triangle').attr('src','http://localhost/coding/images/icon-blog-accordion-arrow-attr.png');
+					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow-attr.png');
 				} else {
-					$(this).find('.triangle').attr('src','http://localhost/coding/images/icon-blog-accordion-arrow.png');
+					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow.png');
 				}
 		});
 
