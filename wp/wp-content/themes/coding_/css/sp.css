@@ -99,9 +99,6 @@ img {
   display: block;
 }
 
-
-
-
 #sidr-right {
   display: none;
   width: 250px;
@@ -110,7 +107,7 @@ img {
   top: 0;
   background-image: url("../images/bg-sidebar.png");
   background-repeat: repeat;
-  z-index: 5;
+  z-index: 9999;
 }
 
 #sidr-right .inner {
