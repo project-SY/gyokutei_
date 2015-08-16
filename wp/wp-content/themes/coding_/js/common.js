@@ -31,7 +31,7 @@ $(function(){
 	    $('.btn').sidr({
 	      name: 'sidr-right',
 	      side: 'right',
-	      speed:500,
+	      speed: 600,
 	      displace: false
 	    });
 	  });
@@ -52,19 +52,6 @@ $(function(){
 					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow.png');
 				}
 		});
-
-		//SP menu btn
-		//$(window).load(function(){
-		//	$(".btn").click(function(){
-		//		$("#sidr-right").css("height",window_h+"px");
-		//		if ($("#wrapper").hasClass("no-active")) {
-		//			$("#wrapper").addClass("active").removeClass("no-active");
-		//			$("")
-		//		} else if ($("#wrapper").hasClass("active")) {
-		//			$("#wrapper").removeClass("active").addClass('no-active');
-		//		};;
-		//	});
-		//});
 		//pagetop
 		$(".pagetop").click(function () {
 			$("html,body").animate({ scrollTop: 0 }, "slow");
