@@ -1,5 +1,5 @@
 <div id="nav">
-    <a class="logo" href="<?php bloginfo('template_url'); ?>/index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="玉庭"></a>
+    <a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="玉庭"></a>
     <a class="open-btn btn"><img class="close" src="<?php bloginfo('template_url'); ?>/images/btn-menu-on-sp.png" alt=""></a>
     <div id="sidr-right" class="sidr right">
       <div class="inner">

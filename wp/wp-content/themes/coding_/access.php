@@ -12,7 +12,11 @@ Template Name: access
   	</div>
 		<img src="<?php bloginfo('template_url'); ?>/images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="<?php bloginfo('template_url'); ?>/images/txt-access-caption.png" alt="お風呂" class="caption pc">
-		<p class="caption-p">茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い<br />始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ</p>
+		<p class="caption-p">
+			箱根湯本駅から玉庭まで徒歩10分ですが、高台に位置するため急坂があります。<br />
+			湯本の駅から商店街を抜け、滝通り温泉郷を左折、弥栄橋を渡り、<br />
+			そのまままっすぐ急な坂道を30メートル程歩くと右側に正面玄関、玉庭の門柱があります。
+		</p>
 		<div class="access-route"><img class="sp" src="<?php bloginfo('template_url'); ?>/images/pic-access-route-sp.png" alt=""></div>
 		<div class="subhead access-subhead-route"></div>
 		<div id="map"></div>
