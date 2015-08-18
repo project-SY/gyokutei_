@@ -16,7 +16,6 @@
 					<h2><?php echo the_title(); ?></h2>
 					<time><?php echo the_date(); ?></time>
 				</div>
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-single-img-01.png" alt="">
 				<p>
 					<?php the_content(); ?>
 				</p>

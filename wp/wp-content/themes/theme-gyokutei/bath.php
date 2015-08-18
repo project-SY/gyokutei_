@@ -16,6 +16,7 @@ Template Name: bath
 			泉質はナトリウム・塩化物・硫酸塩温泉でpH８，４の美肌の湯で、箱根の泉質はとても良いと言われ、<br />
 			温泉療法としても使われています。箱根湯本の泉質は、とても良いと言われていて、玉庭の自家源泉は温泉療法としても使われております。泉質はナトリウム・塩化物硫酸塩温泉でｐＨ８，４の美肌の湯です。
 		</p>
+		<div class="subhead "></div>
 		<div class="media clearfix">
 			<div class="media-img">
    			<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-01.png" alt="">
@@ -36,7 +37,7 @@ Template Name: bath
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
-				<h5>源泉掛け流しの客室内風呂について</h5>
+				<h5>展望大浴場銀殿について</h5>
 				<img src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
 				<p>
 					お部屋の風呂は、源泉掛け流しで、温泉スイッチを押すと常時５７℃前後のお湯がでます。<br />

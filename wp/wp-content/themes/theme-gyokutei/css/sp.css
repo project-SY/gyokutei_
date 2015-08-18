@@ -312,8 +312,13 @@ img {
 }
 
 .index .pagetop {
-  margin-top: 150px;
+  margin-top: 60px;
 }
+
+.index .index-carousel-area p span {
+  display: none;
+}
+
 
 /* ------------------------------------
 ◆　food
@@ -666,7 +671,7 @@ img {
 
 
 #footer {
-  background-image: url("../images/pic-footer.png");
+  background-image: url("../images/pic-footer-sp.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
