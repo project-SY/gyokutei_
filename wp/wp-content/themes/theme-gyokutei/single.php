@@ -20,36 +20,7 @@
 					<?php the_content(); ?>
 				</p>
 				<div id="comments">
-					<div class="comment-headline">コメント(2)</div>
-					<div class="comment-view">
-						<h5>ひろみ</h5>
-						<time><?php echo the_date()?></time>
-						<p>
-							箱根湯本の旅館にて調理補助として頑張っています。ご飯の炊き方や、お新香の盛り付けなどでの、自分のこだわりのような？上手く伝えられませんが、お造りと同じようにという感覚。良いですね。<br />
-	            日々の中で心豊かに感じていらっしゃるところ、素敵です。
-	           </p>
-					</div>
-					<div class="comment-view">
-						<h5>ひろみ</h5>
-						<time>2015/5/13</time>
-						<p>
-							箱根湯本の旅館にて調理補助として頑張っています。ご飯の炊き方や、お新香の盛り付けなどでの、自分のこだわりのような？上手く伝えられませんが、お造りと同じようにという感覚。良いですね。<br />
-	            日々の中で心豊かに感じていらっしゃるところ、素敵です。
-	            </p>
-					</div>
-					<div class="comment-form">
-						<div class="comment-headline">コメントを残す</div>
-							<form action="">
-								<textarea></textarea>
-								<input type="text">
-								<input type="text">
-								<div>
-									<input type="checkbox">
-									<label>新しいコメントがついたらメールで通知</label>
-								</div>
-								<input class="submit" type="submit">
-							</form>
-					</div>
+					<? comments_template() ?>
 				</div>
 			</div>
 			<?php endwhile; ?>

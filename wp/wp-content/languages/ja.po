@@ -6740,7 +6740,7 @@ msgstr "いいえ"
 #: wp-includes/class-wp-editor.php:994 wp-includes/comment-template.php:1873
 #: wp-includes/comment-template.php:1966
 msgid "Edit"
-msgstr "編集"
+msgstr ""
 
 #: wp-includes/media.php:3043
 msgid "No media attachments found."
