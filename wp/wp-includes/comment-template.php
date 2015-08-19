@@ -1954,17 +1954,16 @@ class Walker_Comment extends Walker {
 				<footer class="comment-meta">
 					<div class="comment-author vcard">
 						<?php if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
-						<?php printf( __( '%s <span class="says">says:</span>' ), sprintf( '<b class="fn">%s</b>', get_comment_author_link() ) ); ?>
 					</div><!-- .comment-author -->
 
-					<div class="comment-metadata">
+					<!-- <div class="comment-metadata">
 						<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID, $args ) ); ?>">
 							<time datetime="<?php comment_time( 'c' ); ?>">
 								<?php printf( _x( '%1$s at %2$s', '1: date, 2: time' ), get_comment_date(), get_comment_time() ); ?>
 							</time>
 						</a>
 						<?php edit_comment_link( __( 'Edit' ), '<span class="edit-link">', '</span>' ); ?>
-					</div><!-- .comment-metadata -->
+					</div> --><!-- .comment-metadata -->
 
 					<?php if ( '0' == $comment->comment_approved ) : ?>
 					<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></p>
@@ -2221,7 +2220,7 @@ function comment_form( $args = array(), $post_id = null ) {
 	$fields = apply_filters( 'comment_form_default_fields', $fields );
 	$defaults = array(
 		'fields'               => $fields,
-		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p>',
+		'comment_field'        =>  '<p class="comment-form-comment"><textarea id="comment" name="comment" placeholder="コメントを書く" cols="45" rows="8" aria-required="true"></textarea></p>',
 		/** This filter is documented in wp-includes/link-template.php */
 		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		/** This filter is documented in wp-includes/link-template.php */
@@ -2320,19 +2319,6 @@ function comment_form( $args = array(), $post_id = null ) {
 							 * @since 3.0.0
 							 */
 							do_action( 'comment_form_before_fields' );
-							foreach ( (array) $args['fields'] as $name => $field ) {
-								/**
-								 * Filter a comment form field for display.
-								 *
-								 * The dynamic portion of the filter hook, `$name`, refers to the name
-								 * of the comment form field. Such as 'author', 'email', or 'url'.
-								 *
-								 * @since 3.0.0
-								 *
-								 * @param string $field The HTML-formatted output of the comment form field.
-								 */
-								echo apply_filters( "comment_form_field_{$name}", $field ) . "\n";
-							}
 							/**
 							 * Fires after the comment fields in the comment form.
 							 *
@@ -2350,6 +2336,19 @@ function comment_form( $args = array(), $post_id = null ) {
 						 * @param string $args_comment_field The content of the comment textarea field.
 						 */
 						echo apply_filters( 'comment_form_field_comment', $args['comment_field'] );
+						foreach ( (array) $args['fields'] as $name => $field ) {
+								/**
+								 * Filter a comment form field for display.
+								 *
+								 * The dynamic portion of the filter hook, `$name`, refers to the name
+								 * of the comment form field. Such as 'author', 'email', or 'url'.
+								 *
+								 * @since 3.0.0
+								 *
+								 * @param string $field The HTML-formatted output of the comment form field.
+								 */
+								echo apply_filters( "comment_form_field_{$name}", $field ) . "\n";
+							}
 						?>
 						<?php echo $args['comment_notes_after']; ?>
 
