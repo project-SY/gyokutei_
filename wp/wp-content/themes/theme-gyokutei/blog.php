@@ -30,15 +30,12 @@ Template Name: blog
 							</a>
 						</li>
 					<?php endwhile; ?>
+					<div class="pager">
+							<?php wp_pagenavi(); ?>
+					</div>
 					<?php endif; ?>
 					<?php wp_reset_query(); ?>
 				</ul>
-				<div class="pager">
-					<ul class="clearfix">
-						<li><a href=""><img class="icon-left" src="<?php bloginfo('template_url'); ?>/images/icon-info-left-allow.png" alt="">過去の投稿</a></li>
-						<li><a href="">新しい投稿<img class="icon-right" src="<?php bloginfo('template_url'); ?>/images/icon-info-right-allow.png" alt=""></a></li>
-					</ul>
-				</div>
 			</div>
 			<?php include('blog-sidebar.php'); ?>
 		</div>
