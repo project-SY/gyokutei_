@@ -94,7 +94,7 @@ img {
   background-image: url("../images/icon-nav.png");
   background-repeat: no-repeat;
   background-position: bottom center;
-  padding-bottom: 180px;
+  padding-bottom: 111px;
 }
 
 #sidr-right ul li {
@@ -105,7 +105,7 @@ img {
   background-position: top left;
   background-size: contain;
   */
-  padding: 10px 0px;
+  padding: 16px 0px;
 }
 
 #sidr-right ul li:first-child {
@@ -113,7 +113,7 @@ img {
   background: none;
   */
   border: none;
-  padding: 0px 0px 10px;
+  padding: 0px 0px 16px;
 }
 
 #sidr-right ul li a {
