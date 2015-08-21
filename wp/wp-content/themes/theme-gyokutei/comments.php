@@ -1,4 +1,4 @@
-<div class="comment-headline">コメント(2)</div>
+<div class="comment-headline">コメント(<?php //ループ処理 ?>)</div>
 	 <?php wp_list_comments('callback=mytheme_comment'); ?>
 <?php
 $comments_args = array(

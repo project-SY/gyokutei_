@@ -201,6 +201,7 @@ img {
   text-align: center;
   font-size: 16px;
   margin-bottom: 19px;
+  font-weight: 300;
 }
 
 .media .media-text img {
@@ -569,6 +570,10 @@ img {
   display: none;
 }
 
+#blog-sidebar {
+  margin-bottom: 60px;
+}
+
 .blog-sidebar-category,
 .blog-sidebar-posted {
   margin: 0 30px 30px;
@@ -646,6 +651,16 @@ img {
   font-size: 14px;
   line-height: 25px;
   margin-bottom: 39px;
+}
+
+#single .comment-headline {
+  background-image: url("../images/bg-single-headline-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 15px 0px 12px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 

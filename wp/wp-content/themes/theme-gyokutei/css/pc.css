@@ -327,22 +327,39 @@ img {
   margin-bottom: 119px;
 }
 
-.pager ul {
+.pager .wp-pagenavi {
   margin: 0 auto;
   width: 224px;
 }
 
-.pager ul li {
-  width: 112px;
-  float: left;
-  text-align: center;
-  position: relative;
+.pager .wp-pagenavi:after {
+  clear: both;
+  display:block;
+  content: "";
 }
 
-.pager ul li a {
-  width: 112px;
-  font-size: 14px;
+.pager a {
   display: inline-block;
+  position: relative;
+  width: 112px;
+  /*text-align: center;*/
+  font-size: 14px;
+}
+
+.pager .previouspostslink {
+  float: right;
+  text-align: center;
+  background-image: url("../images/icon-info-right-allow.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.pager .nextpostslink {
+  float: left;
+  text-align: center;
+  background-image: url("../images/icon-info-left-allow.png");
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .pager ul li a img {
@@ -358,6 +375,9 @@ img {
 ◆　bath
 ------------------------------------ */
 .bath .caption-p {margin-bottom: 71px;}
+.bath .bath-subhead-01 {background-image: url("../images/txt-bath-subhead-01.png");}
+.bath .bath-subhead-02 {background-image: url("../images/txt-bath-subhead-02.png");}
+
 /* ------------------------------------
 ◆　room
 ------------------------------------ */
@@ -597,7 +617,6 @@ img {
   position: absolute;
   bottom: 0px;
   right: 0px;
-
 }
 
 
