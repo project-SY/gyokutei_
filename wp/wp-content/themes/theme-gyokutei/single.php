@@ -20,7 +20,7 @@
 					<?php the_content(); ?>
 				</p>
 				<div id="comments">
-					<? comments_template() ?>
+					<?php comments_template() ?>
 				</div>
 			</div>
 			<?php endwhile; ?>
