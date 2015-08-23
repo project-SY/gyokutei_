@@ -64,6 +64,16 @@ img {
   display: none;
 }
 
+.basic-text {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.point-bg-sp {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 50px 0px 0px;
+}
+
 
 /* ------------------------------------
 ◆　nav
@@ -185,8 +195,7 @@ img {
 }
 
 .media {
-  padding: 0px 30px;
-  margin-bottom: 52px;
+  padding: 0px 30px 52px;
 }
 
 .media img {
@@ -320,10 +329,30 @@ img {
   display: none;
 }
 
+/* ------------------------------------
+◆　bath
+------------------------------------ */
+.bath .bath-subhead-01 {background-image: url("../images/txt-bath-subhead-01-sp.png"); margin-bottom: 11px;}
+.bath .bath-subhead-02 {background-image: url("../images/txt-bath-subhead-02-sp.png"); margin-bottom: 11px;}
+.bath-bg-sp {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 50px 0px 0px;
+}
+
+.bath .basic-text {
+  margin: 52px 30px 60px;
+}
+
 
 /* ------------------------------------
 ◆　food
 ------------------------------------ */
+.food .food-subhead-01 {background-image: url("../images/txt-food-subhead-01-sp.png");}
+.food .food-subhead-02 {background-image: url("../images/txt-food-subhead-02-sp.png");}
+.food .food-subhead-03 {background-image: url("../images/txt-food-subhead-03-sp.png"); margin-top: 50px;}
+.food .subhead {margin-bottom: 15px;}
+.food .point-bg-sp {padding-bottom: 52px;}
+
 .food .food-block img,
 .food .food-block-last img {
   width: 85%;
@@ -341,7 +370,7 @@ img {
 .food .food-block h6 {
   font-size: 16px;
   text-align: center;
-  font-weight: normal;
+  font-weight: 300;
   padding-bottom: 19px;
   background-image: url("../images/border-food-dotted-sp.png");
   background-repeat: no-repeat;
@@ -350,6 +379,8 @@ img {
   width: 85%;
   margin: 0px auto 52px;
 }
+
+.no-mrg {margin-bottom: 0px!important;}
 
 .food .pagetop {
   margin-top: 60px;

@@ -1,13 +1,13 @@
-<div class="comment-headline">コメント(<?php //ループ処理 ?>)</div>
-	 <?php wp_list_comments('callback=mytheme_comment'); ?>
+<div class="comment-headline">コメント(<?php get_comments_number(); ?>)</div>
+<?php wp_list_comments('callback=mytheme_comment'); ?>
 <?php
-$comments_args = array(
+$args = array(
 	'fields' => array(
 		'email'  => '<p class="comment-form-email">' .
-	              	'<input id="email" name="email" placeholder="メールアドレス" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />
+	              	'<input id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />
 	               </p>',
 		'author' => '<p class="comment-form-author">'.
-	              	'<input id="author" name="author" type="text" placeholder="お名前" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />
+	              	'<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />
 	               </p>',
 		'url'    => '',
 	),

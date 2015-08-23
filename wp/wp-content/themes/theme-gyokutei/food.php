@@ -35,26 +35,28 @@ Template Name: food
 				<h6>お造り</h6>
 			</div>
 		</div>
-		<div class="subhead food-subhead-02"></div>
-		<div class="food-block clearfix">
-			<div class="food-block-right">
-				<p>
-					婚記念日や還暦のお祝い、お誕生など特別な日のためのお料理を調理長が厳選した食材でお作り致します。ご予約が必要となります。料金等は時価になりますので、お早めにお問い合わせいただけますよう、お願い致します。
-				</p>
+		<div class="point-bg-sp">
+			<div class="subhead food-subhead-02"></div>
+			<div class="food-block clearfix">
+				<div class="food-block-right">
+					<p>
+						婚記念日や還暦のお祝い、お誕生など特別な日のためのお料理を調理長が厳選した食材でお作り致します。ご予約が必要となります。料金等は時価になりますので、お早めにお問い合わせいただけますよう、お願い致します。
+					</p>
+				</div>
+				<div class="food-block-left">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-04.png" alt="伊勢海老">
+					<h6>伊勢海老</h6>
+				</div>
 			</div>
-			<div class="food-block-left">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-04.png" alt="伊勢海老">
-				<h6>伊勢海老</h6>
-			</div>
-		</div>
-		<div class="food-block clearfix">
-			<div class="food-block-left">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05.png" alt="アワビ">
-				<h6>アワビ</h6>
-			</div>
-			<div class="food-block-right">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06.png" alt="ステーキ">
-				<h6>ステーキ</h6>
+			<div class="food-block clearfix">
+				<div class="food-block-left">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05.png" alt="アワビ">
+					<h6>アワビ</h6>
+				</div>
+				<div class="food-block-right">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06.png" alt="ステーキ">
+					<h6 class="no-mrg">ステーキ</h6>
+				</div>
 			</div>
 		</div>
 		<div class="subhead food-subhead-03"></div>

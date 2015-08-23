@@ -28,7 +28,7 @@ Template Name: reservation
 		<div class="reservation-inner reservation-inner-color">
 			<div class="subhead reservation-subhead-03"></div>
 			<div class="reservation-subtitle-01"></div>
-			<h6>0460-85-8501</h6>
+			<h6>0560-85-8501</h6>
 			<p class="sp">受付時間9:00-22:00</p>
 			<div class="reservation-subtitle-02"></div>
 			<div class="reservation-btn-area clearfix">

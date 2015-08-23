@@ -7,7 +7,7 @@
           <a class="close-btn btn" href="#"><img src="<?php bloginfo('template_url'); ?>/images/btn-menu-off-sp.png" alt=""></a>
         </div>
         <ul>
-          <li><a href="<?php home_url(); ?>"><div class="nav-text nav-index"></div></a></li>
+          <li><a href="<?php echo home_url(); ?>"><div class="nav-text nav-index"></div></a></li>
           <li><a href="bath"><div class="nav-text nav-bath"></div></a></li>
           <li><a href="room"><div class="nav-text nav-room"></div></a></li>
           <li><a href="food"><div class="nav-text nav-food"></div></a></li>

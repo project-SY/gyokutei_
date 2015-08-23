@@ -8,7 +8,7 @@ Template Name: access
 	<div id="contents" class="access">
 		<div class="kv-same">
   		<img class="pc" src="<?php bloginfo('template_url'); ?>/images/pic-access-kv.png" alt="交通">
-  		<img class="sp" src="./images/pic-access-kv-sp.png" alt="交通">
+  		<img class="sp" src="<?php bloginfo('template_url'); ?>/images/pic-access-kv-sp.png" alt="交通">
   	</div>
 		<img src="<?php bloginfo('template_url'); ?>/images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="<?php bloginfo('template_url'); ?>/images/txt-access-caption.png" alt="お風呂" class="caption pc">
