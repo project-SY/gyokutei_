@@ -794,6 +794,19 @@ img {
   display:block;
 }
 
+#comments .comment-form input[checkbox] {
+  width: 14px;
+  height: 14px;
+}
+
+#comments .comment-form div label {
+  font-size: 14px;
+}
+
+#comments .comment-form .red {
+  color: #d7b1b1;
+}
+
 .comment-notes,
 .comment-form-url,
 .form-allowed-tags,
