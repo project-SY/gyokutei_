@@ -47,9 +47,9 @@ $(function(){
 				blogMenuUl.slideToggle();
 				$(this).toggleClass('open');
 				if ( $(this).hasClass('open') ) {
-					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow-attr.png');
+					$(this).find('.triangle').attr('src','http:/wp-content/themes/theme-gyokutei/images/icon-blog-accordion-arrow-attr.png');//http:以降にサイトURLでフルパス指定
 				} else {
-					$(this).find('.triangle').attr('src','../images/icon-blog-accordion-arrow.png');
+					$(this).find('.triangle').attr('src','http:/wp-content/themes/theme-gyokutei/images/icon-blog-accordion-arrow.png');//http:以降にサイトURLでフルパス指定
 				}
 		});
 		//pagetop

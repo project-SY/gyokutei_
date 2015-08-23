@@ -60,6 +60,11 @@ img {
   display: none;
 }
 
+.basic-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* ------------------------------------
 ◆　sidebar
 ------------------------------------ */
@@ -93,8 +98,8 @@ img {
 #sidr-right .inner {
   background-image: url("../images/icon-nav.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
-  padding-bottom: 180px;
+  background-position: bottom right 32px;
+  padding-bottom: 111px;
 }
 
 #sidr-right ul li {
@@ -105,7 +110,7 @@ img {
   background-position: top left;
   background-size: contain;
   */
-  padding: 10px 0px;
+  padding: 16px 0px;
 }
 
 #sidr-right ul li:first-child {
@@ -113,7 +118,7 @@ img {
   background: none;
   */
   border: none;
-  padding: 0px 0px 10px;
+  padding: 0px 0px 16px;
 }
 
 #sidr-right ul li a {
@@ -194,8 +199,11 @@ img {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
-  width: 700px;
   margin: 0 auto 74px;
+}
+
+.index .index-comment p span a {
+  border-bottom: solid 1px #000000;
 }
 
 .index .index-carousel {
@@ -350,7 +358,7 @@ img {
   float: right;
   text-align: center;
   background-image: url("../images/icon-info-right-allow.png");
-  background-position: right;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
@@ -358,7 +366,7 @@ img {
   float: left;
   text-align: center;
   background-image: url("../images/icon-info-left-allow.png");
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
@@ -375,6 +383,12 @@ img {
 ◆　bath
 ------------------------------------ */
 .bath .caption-p {margin-bottom: 71px;}
+.bath .bath-subhead-01 {background-image: url("../images/txt-bath-subhead-01.png");}
+.bath .bath-subhead-02 {background-image: url("../images/txt-bath-subhead-02.png");}
+.bath .basic-text {
+  margin: 0px auto 120px;
+  width: 820px;
+}
 /* ------------------------------------
 ◆　room
 ------------------------------------ */
@@ -614,9 +628,8 @@ img {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  font-weight: 300;
 }
-
-
 /* ------------------------------------
 ◆　blog/sidebar
 ------------------------------------ */
@@ -831,7 +844,10 @@ img {
   margin-bottom: 28px;
   display: inline-block;
 }
-
+.info .info-articles-article p {
+    font-size: 14px;
+    line-height: 24px;
+}
 /* ------------------------------------
 ◆　footer
 ------------------------------------ */

@@ -1,7 +1,7 @@
-<div class="comment-headline">コメント(2)</div>
-	 <?php wp_list_comments('callback=mytheme_comment'); ?>
+<div class="comment-headline">コメント(<?php get_comments_number(); ?>)</div>
+<?php wp_list_comments('callback=mytheme_comment'); ?>
 <?php
-$comments_args = array(
+$args = array(
 	'fields' => array(
 		'email'  => '<p class="comment-form-email">' .
 								'<label>メールアドレス<span class="red">（必須）</span></label><input id="email" name="email"' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />
