@@ -4,10 +4,10 @@
 $comments_args = array(
 	'fields' => array(
 		'email'  => '<p class="comment-form-email">' .
-	              	'<input id="email" name="email" placeholder="メールアドレス" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />
+								'<label>メールアドレス<span class="red">（必須）</span></label><input id="email" name="email"' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />
 	               </p>',
 		'author' => '<p class="comment-form-author">'.
-	              	'<input id="author" name="author" type="text" placeholder="お名前" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />
+								'<label>お名前<span class="red">（必須）</span></label><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />
 	               </p>',
 		'checkbox'    => '<div>
 												<input type="checkbox">

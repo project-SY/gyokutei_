@@ -790,6 +790,10 @@ img {
   font-size: 14px;
 }
 
+#comments .comment-form .red {
+  color: #d7b1b1;
+}
+
 .comment-notes,
 .comment-form-url,
 .form-allowed-tags,
