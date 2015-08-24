@@ -218,10 +218,21 @@ img {
 .index .index-carousel-area p {
   text-align: left;
   width: 920px;
-  margin:0px auto 120px;
+  margin:0px auto 60px;
   color:  #2d2d2d;
   font-size: 14px;
   line-height: 23px;
+}
+
+.index .index-banner {
+  background-image: url("../images/pic-index-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 266px;
+  height: 76px;
+  margin: 0px auto 120px;
+  display: block;
 }
 
 /*slick version*/
@@ -355,18 +366,18 @@ img {
 }
 
 .pager .previouspostslink {
-  float: right;
-  text-align: center;
-  background-image: url("../images/icon-info-right-allow.png");
-  background-position: right top;
-  background-repeat: no-repeat;
-}
-
-.pager .nextpostslink {
   float: left;
   text-align: center;
   background-image: url("../images/icon-info-left-allow.png");
   background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.pager .nextpostslink {
+  float: right;
+  text-align: center;
+  background-image: url("../images/icon-info-right-allow.png");
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
@@ -375,8 +386,8 @@ img {
   position: absolute;
 }
 
-.pager .icon-left {padding-right: 14px; left: 0;}
-.pager .icon-right {padding-left: 14px; right: 0;}
+.pager .icon-left {padding-right: 14px; right: 0;}
+.pager .icon-right {padding-left: 14px; left: 0;}
 
 
 /* ------------------------------------
@@ -408,6 +419,10 @@ img {
 .food .food-block {
   width: 820px;
   margin: 0 auto 60px;
+}
+/* デモ */
+.food .food-block img {
+  width: 382px;
 }
 
 .food .food-block-last {
@@ -468,7 +483,7 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  min-height: 337px;
+  min-height: 693px;
   margin-bottom: 87px;
 }
 
@@ -558,7 +573,7 @@ img {
 #map {
   width: 685px;
   height: 420px;
-  margin: 0 auto 82px;
+  margin: 0 auto 41px;
 }
 
 .access .access-about {
@@ -567,6 +582,12 @@ img {
   text-align: center;
   margin-bottom: 90px;
 }
+
+.access .basic-text {
+  width: 685px;
+  margin: 0px auto 112px;
+}
+
 
 /* ------------------------------------
 ◆　blog
@@ -725,7 +746,6 @@ img {
   background-size: contain;
   padding-bottom: 19px;
 }
-
 #comments .comment-view h5 {
   margin: 29px 0px 6px;
   font-size: 16px;
@@ -794,24 +814,24 @@ img {
   display:block;
 }
 
-#comments .comment-form input[checkbox] {
-  width: 14px;
-  height: 14px;
-}
-
 #comments .comment-form div label {
   font-size: 14px;
 }
 
 #comments .comment-form .red {
-  color: #d7b1b1;
+  color: #bd7878;
 }
 
 .comment-notes,
 .comment-form-url,
 .form-allowed-tags,
-.logged-in-as {
+.logged-in-as,
+.comment-form-comment {
   display: none;
+}
+
+#respond {
+  margin-top: 58px;
 }
 
 

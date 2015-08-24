@@ -22,6 +22,13 @@ $(function(){
     //  	$(this).removeClass('active');
     //  }
     //});
+		$(document).ready(function(){
+			$(".fancy").fancybox({
+	    	width : 720,
+	    	autoSize : false
+	    });
+		});
+
 
 
 	} else if(window_w < 568) {

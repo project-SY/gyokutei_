@@ -20,6 +20,11 @@ Template Name: access
 		<div class="access-route"><img class="sp" src="<?php bloginfo('template_url'); ?>/images/pic-access-route-sp.png" alt=""></div>
 		<div class="subhead access-subhead-route"></div>
 		<div id="map"></div>
+		<p class="basic-text">
+			旅館組合バス（片道100円）でご利用になれます。早雲通り（Bコース）バスにご乗車下さい。<br />
+箱根登山鉄道箱根湯本駅より徒歩10分、タクシー5分。<br />
+車でお越しの方、小田原方面より国道１号線三枚橋信号を左折し900メートル程先の滝通り入り口を右折。
+		</p>
 		<div class="subhead access-subhead-info"></div>
 		<p class="access-about">
 			TEL:&nbsp;0560-85-8501<br />

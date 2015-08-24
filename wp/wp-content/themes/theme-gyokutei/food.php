@@ -16,7 +16,9 @@ Template Name: food
 		<div class="subhead food-subhead-01"></div>
 		<div class="food-block clearfix">
 			<div class="food-block-left">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-01.png" alt="">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-01-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-01.png" alt="">
+				</a>
 			</div>
 			<div class="food-block-right">
 				<p>
@@ -31,7 +33,9 @@ Template Name: food
 				<h6>お吸い物</h6>
 			</div>
 			<div class="food-block-right">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-03.png" alt="">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-03-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-03.png" alt="">
+				</a>
 				<h6>お造り</h6>
 			</div>
 		</div>
@@ -40,17 +44,21 @@ Template Name: food
 			<div class="food-block clearfix">
 				<div class="food-block-right">
 					<p>
-						婚記念日や還暦のお祝い、お誕生など特別な日のためのお料理を調理長が厳選した食材でお作り致します。ご予約が必要となります。料金等は時価になりますので、お早めにお問い合わせいただけますよう、お願い致します。
+						結婚記念日や還暦のお祝い、お誕生など特別な日のためのお料理を調理長が厳選した食材でお作り致します。ご予約が必要となります。料金等は時価になりますので、お早めにお問い合わせいただけますよう、お願い致します。
 					</p>
 				</div>
 				<div class="food-block-left">
-					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-04.png" alt="伊勢海老">
+					<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-04-full.png" alt="伊勢海老">
+						<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-04.png" alt="伊勢海老">
+					</a>
 					<h6>伊勢海老</h6>
 				</div>
 			</div>
 			<div class="food-block clearfix">
 				<div class="food-block-left">
-					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05.png" alt="アワビ">
+					<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05-full.png">
+						<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05.png" alt="アワビ">
+					</a>
 					<h6>アワビ</h6>
 				</div>
 				<div class="food-block-right">

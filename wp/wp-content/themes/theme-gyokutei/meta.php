@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/slick.css">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.bxslider.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.fancybox.css">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.bxslider.js"></script>
 <script src="http://www.google.com/jsapi/"></script>
@@ -21,6 +22,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/slick.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.sidr.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js"></script>
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="./css/pc.css" />
 <![endif]-->

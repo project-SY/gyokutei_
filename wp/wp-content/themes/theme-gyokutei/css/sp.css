@@ -414,9 +414,19 @@ img {
   background-image: url("../images/pic-reservation-price-sp.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
-  height: 392px;
+  background-size: cover;
+  height: 408px;
+  margin-bottom: 69px;
 }
+
+.reservation .reservation-child-price-sp {
+  background-image: url("../images/pic-reservation-child-price-sp.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 303px;
+}
+
 
 .reservation .reservation-info {
   background-image: url("../images/pic-reservation-info-sp.png");
@@ -550,6 +560,10 @@ img {
   margin: 0 30px 61px;
 }
 
+.access .basic-text {
+  margin: 0px 30px 52px;
+}
+
 .access .access-about {
   font-size: 16px;
   line-height: 24px;
@@ -560,8 +574,17 @@ img {
 /* ------------------------------------
 ◆　blog
 ------------------------------------ */
+.blog .blog-area {
+  background-image: url("../images/txt-blog-title-sp.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 47px;
+  margin: 0px 30px;
+}
+
 .blog .blog-articles {
-  margin: 0px 30px 62px;
+  margin: 0px 0px 62px;
   background-image: url("../images/border-info.png");
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -573,6 +596,10 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+}
+
+.blog .blog-article:first-child {
+  background-image: none;
 }
 
 
