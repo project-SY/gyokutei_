@@ -59,11 +59,11 @@ Template Name: food
 					<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05-full.png">
 						<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-05.png" alt="アワビ">
 					</a>
-					<h6>アワビ</h6>
+					<h6>鮑</h6>
 				</div>
 				<div class="food-block-right">
 					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06.png" alt="ステーキ">
-					<h6 class="no-mrg">ステーキ</h6>
+					<h6 class="no-mrg">和牛フィレ肉</h6>
 				</div>
 			</div>
 		</div>

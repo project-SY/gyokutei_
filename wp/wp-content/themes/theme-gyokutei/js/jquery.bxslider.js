@@ -15,11 +15,11 @@
 	var defaults = {
 
 		// GENERAL
-		mode: 'horizontal',
+		mode: 'fade',
 		slideSelector: '',
 		infiniteLoop: true,
 		hideControlOnEnd: false,
-		speed: 500,
+		speed: 1000,
 		easing: null,
 		slideMargin: 0,
 		startSlide: 0,
@@ -65,7 +65,7 @@
 
 		// AUTO
 		auto: true,
-		pause: 4000,
+		pause: 5000,
 		autoStart: true,
 		autoDirection: 'next',
 		autoHover: false,
