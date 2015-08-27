@@ -7,9 +7,14 @@
 			</div>
 		</div>
 		<ul>
-			<li><a href="#">女将のーーー（21）</a></li>
-			<li><a href="#">料理長ーー(12)</a></li>
-			<li><a href="#">ーーー(32)</a></li>
+			<?php
+			$args = array(
+			'style'              => 'list',
+			'show_count'         => 1,
+			'hide_empty'         => 1,
+			'title_li'           => __( '' ),
+    	);
+			wp_list_categories( $args ); ?>
 		</ul>
 	</div>
 	<div class="blog-sidebar-posted">
@@ -20,12 +25,18 @@
 			</div>
 		</div>
 		<ul>
-			<li><a href="">2015年6月(7)</a></li>
-			<li><a href="">2015年5月(6)</a></li>
-			<li><a href="">2015年4月(12)</a></li>
-			<li><a href="">2015年3月(4)</a></li>
-			<li><a href="">2015年2月(13)</a></li>
-			<li><a href="">2015年1月(5)</a></li>
+		<?php
+			$args = array(
+			'type'            => 'monthly',
+			'limit'           => '',
+			'format'          => 'html',
+			'before'          => '',
+			'after'           => '',
+			'show_post_count' => true,
+			'echo'            => 1,	
+			'order'           => 'DESC'
+		);
+			 wp_get_archives( $args ); ?>
 		</ul>
 	</div>
 </div>
