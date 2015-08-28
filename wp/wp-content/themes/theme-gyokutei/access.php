@@ -27,7 +27,7 @@ Template Name: access
 		</p>
 		<div class="subhead access-subhead-info"></div>
 		<p class="access-about">
-			TEL:&nbsp;0560-85-8501<br />
+			TEL:&nbsp;0460-85-8501<br />
 			250-0311&nbsp;&nbsp;神奈川県足柄下郡箱根町湯本501
 		</p>
 <?php include('footer.php'); ?>

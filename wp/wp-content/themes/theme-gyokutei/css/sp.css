@@ -413,9 +413,11 @@ img {
 .reservation .reservation-price {
   background-image: url("../images/pic-reservation-price-sp.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
-  height: 408px;
+  height: 476px;
+  /*height: 408px;
+  */
   margin-bottom: 69px;
 }
 
@@ -423,8 +425,11 @@ img {
   background-image: url("../images/pic-reservation-child-price-sp.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  /*
   min-height: 303px;
+  */
+  height: 354px;
 }
 
 
@@ -579,7 +584,7 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  padding-top: 47px;
+  padding-top: 40px;
   margin: 0px 30px;
 }
 

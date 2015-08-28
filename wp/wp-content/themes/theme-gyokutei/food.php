@@ -29,7 +29,9 @@ Template Name: food
 		</div>
 		<div class="food-block clearfix">
 			<div class="food-block-left">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-02.png" alt="">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-02-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-02.png" alt="">
+				</a>
 				<h6>お吸い物</h6>
 			</div>
 			<div class="food-block-right">
@@ -62,7 +64,9 @@ Template Name: food
 					<h6>鮑</h6>
 				</div>
 				<div class="food-block-right">
-					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06.png" alt="ステーキ">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-06.png" alt="">
+				</a>
 					<h6 class="no-mrg">和牛フィレ肉</h6>
 				</div>
 			</div>
@@ -75,7 +79,9 @@ Template Name: food
 				</p>
 			</div>
 			<div class="food-block-left">
-				<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-07.png" alt="朝食">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-food-visual-07-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-food-visual-07.png" alt="">
+				</a>
 			</div>
 		</div>
 
