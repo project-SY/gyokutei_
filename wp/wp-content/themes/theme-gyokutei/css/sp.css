@@ -231,7 +231,7 @@ img {
 }
 
 
-.article-1 {
+.bg-odd {
   background-color:  rgba(0, 0, 0, 0.03);
 }
 
@@ -599,6 +599,10 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+}
+
+.bg-odd {
+  
 }
 
 .blog .blog-article:first-child {
