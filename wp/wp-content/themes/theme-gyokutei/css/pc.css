@@ -834,6 +834,10 @@ img {
   margin-top: 58px;
 }
 
+.comment-author .photo {
+  display: none;
+}
+
 
 
 /* ------------------------------------
