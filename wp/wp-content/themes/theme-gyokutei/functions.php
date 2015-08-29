@@ -19,3 +19,7 @@ function mytheme_comment($comment, $args, $depth) {
      </div>
 <?php
         }
+function is_odd_post(){
+  global $wp_query;
+  return ((($wp_query->current_post+1) % 2) === 1);
+}

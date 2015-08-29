@@ -19,7 +19,8 @@ Template Name: blog
 					<?php query_posts('post_type=post&paged='.$paged); ?>
 					<?php if (have_posts()) :
 					while (have_posts()) : the_post(); ?>
-						<li class="blog-article article-1">
+					<?php if (is_odd_post()): ?> 
+						<li class="blog-article bg-odd">
 							<a href="<?php the_permalink(); ?>">
 								<h6><?php echo the_title(); ?></h6>
 								<time><?php echo get_the_date(); ?></time>
@@ -29,6 +30,18 @@ Template Name: blog
 								<div href="#">もっと読む</div>
 							</a>
 						</li>
+					<?php else: ?>
+						<li class="blog-article">
+							<a href="<?php the_permalink(); ?>">
+								<h6><?php echo the_title(); ?></h6>
+								<time><?php echo get_the_date(); ?></time>
+								<p>
+									<?php the_content(); ?>
+								</p>
+								<div href="#">もっと読む</div>
+							</a>
+						</li>
+					<?php endif; ?>
 					<?php endwhile; ?>
 					<div class="pager">
 							<?php wp_pagenavi(); ?>
