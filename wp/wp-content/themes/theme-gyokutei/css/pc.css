@@ -366,18 +366,18 @@ img {
 }
 
 .pager .previouspostslink {
-  float: left;
-  text-align: center;
-  background-image: url("../images/icon-info-left-allow.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-}
-
-.pager .nextpostslink {
   float: right;
   text-align: center;
   background-image: url("../images/icon-info-right-allow.png");
   background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.pager .nextpostslink {
+  float: left;
+  text-align: center;
+  background-image: url("../images/icon-info-left-allow.png");
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
@@ -872,6 +872,17 @@ img {
     font-size: 14px;
     line-height: 24px;
 }
+
+/* ------------------------------------
+◆　info/single
+------------------------------------ */
+
+.single-info {
+  float: none!important;
+  width: 820px!important;
+  margin: 0 auto!important;
+}
+
 /* ------------------------------------
 ◆　footer
 ------------------------------------ */
