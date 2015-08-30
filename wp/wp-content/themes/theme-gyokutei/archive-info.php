@@ -16,25 +16,29 @@ Template Name: info
 いろいろな機会にご利用いただきたいと思います。</p>
 		<div class="info-articles">
 			<!--ループ処理 start-->
-				<?php $loop = new WP_Query(array("post_type" => "info","posts_per_page" => "10")); ?>
-         <?php if($loop->have_posts()): ?>
-         <?php while($loop->have_posts()): $loop->the_post(); ?>
-         <?php if(is_odd_post()): ?>
-					<div class="info-articles-article bg-odd">
-						<h4><?php echo the_title(); ?></h4>
-						<time><?php echo get_the_date(); ?></time>
-						<p>
-							<?php the_content(); ?>
-						</p>
-					</div>
-					<?php else: ?>
-					<div class="info-articles-article">
-						<h4><?php echo the_title(); ?></h4>
-						<time><?php echo get_the_date(); ?></time>
-						<p>
-							<?php the_content(); ?>
-						</p>
-					</div>
+				<?php query_posts('posts_per_page=3&post_type=info&paged='.$paged); ?>
+				<?php if(have_posts()): ?>
+        <?php while (have_posts()) : the_post(); ?>
+        <?php if(is_odd_post()): ?>
+	        <a href="<?php the_permalink(); ?>">
+						<div class="info-articles-article bg-odd">
+							<h4><?php echo the_title(); ?></h4>
+							<time><?php echo get_the_date(); ?></time>
+							<p>
+								<?php the_content(); ?>
+							</p>
+						</div>
+					</a>
+				<?php else: ?>
+					<a href="<?php the_permalink(); ?>">
+						<div class="info-articles-article">
+							<h4><?php echo the_title(); ?></h4>
+							<time><?php echo get_the_date(); ?></time>
+							<p>
+								<?php the_content(); ?>
+							</p>
+						</div>
+					</a>
 				<?php endif; ?>
 				<?php endwhile; ?>
 				<div class="pager">
