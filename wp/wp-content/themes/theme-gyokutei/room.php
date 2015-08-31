@@ -18,7 +18,9 @@ Template Name: room
 		</p>
 		<div class="media clearfix">
 			<div class="media-img">
-   			<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-01.png" alt="">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-room-img-01-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-01.png" alt="">
+				</a>
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
@@ -27,7 +29,9 @@ Template Name: room
 		</div>
 		<div class="media clearfix">
 			<div class="media-img">
-   			<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-02.png" alt="">
+   			<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-room-img-02-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-02.png" alt="">
+				</a>
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
@@ -36,7 +40,9 @@ Template Name: room
 		</div>
 		<div class="media clearfix">
 			<div class="media-img">
-   			<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-03.png" alt="">
+   			<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-room-img-03-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-room-img-03.png" alt="">
+				</a>
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">

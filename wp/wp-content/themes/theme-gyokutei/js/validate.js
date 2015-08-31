@@ -8,7 +8,7 @@ $(function(){
          */
         $(".v_required").each(function(){
             if($(this).val()==""){
-                $(this).parent().append("<p class='error'>Required fields.</p>");
+                $(this).parent().append("<p class='error red'>入力されていません</p>");
                 $(this).addClass("errored");
             }
         });
