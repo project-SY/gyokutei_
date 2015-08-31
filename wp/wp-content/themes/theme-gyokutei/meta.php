@@ -23,6 +23,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/slick.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.sidr.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/validate.js"></script>
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="./css/pc.css" />
 <![endif]-->

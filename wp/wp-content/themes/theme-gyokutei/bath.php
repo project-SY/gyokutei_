@@ -21,7 +21,9 @@ Template Name: bath
 		<div class="subhead bath-subhead-01"></div>
 		<div class="media clearfix">
 			<div class="media-img">
-   			<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-01.png" alt="">
+				<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-bath-img-01-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-01.png" alt="">
+				</a>
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
@@ -35,7 +37,9 @@ Template Name: bath
 		</div>
 		<div class="media clearfix">
 			<div class="media-img">
-   			<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-04.png" alt="">
+   			<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-bath-img-04-full.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-04.png" alt="">
+				</a>
 			</div>
 			<div class="media-text">
 				<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
@@ -51,7 +55,9 @@ Template Name: bath
 			<div class="subhead bath-subhead-02"></div>
 			<div class="media clearfix">
 				<div class="media-img">
-	   			<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-02.png" alt="">
+	   			<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-bath-img-02-full.png">
+						<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-02.png" alt="">
+					</a>
 				</div>
 				<div class="media-text">
 					<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
@@ -65,7 +71,9 @@ Template Name: bath
 			</div>
 			<div class="media clearfix">
 				<div class="media-img">
-	   			<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-03.png" alt="">
+	   			<a class="fancy" href="<?php bloginfo('template_url'); ?>/images/pic-bath-img-03-full.png">
+						<img src="<?php bloginfo('template_url'); ?>/images/pic-bath-img-03.png" alt="">
+					</a>
 				</div>
 				<div class="media-text">
 					<img class="pc" src="<?php bloginfo('template_url'); ?>/images/border-same.png" alt="">
