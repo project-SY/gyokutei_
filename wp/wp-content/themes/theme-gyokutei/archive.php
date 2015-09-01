@@ -12,8 +12,8 @@ Template Name: archive
   	</div>
 		<img src="<?php bloginfo('template_url'); ?>/images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="<?php bloginfo('template_url'); ?>/images/txt-blog-caption.png" alt="ブログ" class="caption pc">
-		<p class="caption-p">玉庭のお料理や温泉を楽しみに来てくださるお客様に、さらに喜んでいただけるプランなどをご用意しています。<br />
-いろいろな機会にご利用いただきたいと思います。</p>
+		<p class="caption-p">お庭の様子や旬の素材から、箱根の豊かな自然を皆様のもとにお届けしたいと思っております。<br />
+時折、お読みいただいて、箱根の 事を思い浮かべていただければ幸いです。</p>
 		<div class="blog-area clearfix">
 			<div class="blog-articles">
 				<ul>
