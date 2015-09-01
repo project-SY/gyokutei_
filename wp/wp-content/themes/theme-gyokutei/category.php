@@ -48,7 +48,6 @@ Template Name: category
 							<?php wp_pagenavi(); ?>
 					</div>
 					<?php endif; ?>
-					<?php wp_reset_query(); ?>
 				</ul>
 			</div>
 			<?php include('blog-sidebar.php'); ?>

@@ -15,7 +15,7 @@
           <li><a href="reservation"><div class="nav-text nav-reservation"></div></a></li>
           <li><a href="access"><div class="nav-text nav-access"></div></a></li>
           <li><a href="blog"><div class="nav-text nav-blog"></div></a></li>
-          <li><a href="info"><div class="nav-text nav-info"></div></a></li>
+          <li><a href="infomation"><div class="nav-text nav-info"></div></a></li>
         </ul>
       </div>
     </div>
