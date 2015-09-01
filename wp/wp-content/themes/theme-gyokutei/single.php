@@ -1,6 +1,6 @@
 <?php include('head.php'); ?>
 	<?php include('nav.php'); ?>
-	<div id="contents" class="blog">
+	<div id="contents" class="blog single">
 		<div class="kv-same">
   		<img class="pc" src="<?php bloginfo('template_url'); ?>/images/pic-blog-kv.png" alt="ブログ">
   		<img class="sp" src="<?php bloginfo('template_url'); ?>/images/pic-blog-kv-sp.png" alt="ブログ">

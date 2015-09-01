@@ -45,7 +45,6 @@
         <li><a href="bath"><img src="<?php bloginfo('template_url'); ?>/images/link-index-bath-sp.png" alt="お風呂"></a></li>
         <li><a href="room"><img src="<?php bloginfo('template_url'); ?>/images/link-index-room-sp.png" alt="お部屋"></a></li>
         <li><a href="food"><img src="<?php bloginfo('template_url'); ?>/images/link-index-food-sp.png" alt="お料理"></a></li>
-        <li><a href="chaji"><img src="<?php bloginfo('template_url'); ?>/images/link-index-chaji-sp.png" alt="お茶事"></a></li>
         <li><a href="reservation"><img src="<?php bloginfo('template_url'); ?>/images/link-index-reservation-sp.png" alt="ご予約"></a></li>
         <li><a href="access"><img src="<?php bloginfo('template_url'); ?>/images/link-index-access-sp.png" alt="交通"></a></li>
         <li><a href="blog"><img src="<?php bloginfo('template_url'); ?>/images/link-index-blog-sp.png" alt="ブログ"></a></li>

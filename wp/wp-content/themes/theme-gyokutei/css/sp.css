@@ -414,7 +414,7 @@ img {
   background-image: url("../images/pic-reservation-price-sp.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 476px;
   /*height: 408px;
   */
@@ -437,7 +437,7 @@ img {
   background-image: url("../images/pic-reservation-info-sp.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: cover;
   height: 246px;
 }
 
@@ -685,10 +685,6 @@ img {
 /* ------------------------------------
 ◆　blog/single
 ------------------------------------ */
-#single {
-  margin: 0px 30px;
-}
-
 #single img {
   width: 100%;
   margin-bottom: 20px;
@@ -728,6 +724,11 @@ img {
   padding: 15px 0px 12px;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.single .blog-area {
+  background: none !important;
+  padding-top: 0px !important;
 }
 
 /* ------------------------------------

@@ -35,8 +35,8 @@ Template Name: reservation
 			<div class="reservation-subtitle-02"></div>
 			<div class="reservation-btn-area clearfix">
 				<ul>
-					<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/btn-reservation-apply.png" alt="お申し込み"></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/btn-reservation-cofirm.png" alt="確認・キャンセル"></a></li>
+					<li><a href="http://www.jhpds.net/gyokutei/uw/uwp3100/uww3101.do?yadNo=312297"><img src="<?php bloginfo('template_url'); ?>/images/btn-reservation-apply.png" alt="お申し込み"></a></li>
+					<li><a href="https://www.jhpds.net/gyokutei/uw/uwp5300/uww5301init.do?yadNo=312297"><img src="<?php bloginfo('template_url'); ?>/images/btn-reservation-cofirm.png" alt="確認・キャンセル"></a></li>
 				</ul>
 			</div>
 		</div>
