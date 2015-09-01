@@ -12,7 +12,8 @@ Template Name: blog
   	</div>
 		<img src="<?php bloginfo('template_url'); ?>/images/icon-same.png" alt="アイコン" class="icon-same pc">
 		<img src="<?php bloginfo('template_url'); ?>/images/txt-blog-caption.png" alt="ブログ" class="caption pc">
-		<p class="caption-p">茶事は一年を通じ、自然の移り変わりや季節に応じて催されます。新しい茶を使い<br />始める初冬の時期の「口切」の茶から、「古茶」と呼ぶ</p>
+		<p class="caption-p">お庭の様子や旬の素材から、箱根の豊かな自然を皆様のもとにお届けしたいと思っております。<br />
+時折、お読みいただいて、箱根の 事を思い浮かべていただければ幸いです。</p>
 		<div class="blog-area clearfix">
 			<div class="blog-articles">
 				<ul>
